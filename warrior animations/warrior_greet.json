@@ -2,18 +2,18 @@
   "generatedBy": "Sorceress Sprite Analyzer",
   "sprite": "warrior_greet",
   "image": "warrior_greet.png",
-  "frameWidth": 1368,
+  "frameWidth": 228,
   "frameHeight": 128,
   "sheet": {
-    "cols": 3,
-    "rows": 3,
-    "frames": 7,
-    "imageWidth": 4104,
-    "imageHeight": 384
+    "cols": 6,
+    "rows": 6,
+    "frames": 32,
+    "imageWidth": 1368,
+    "imageHeight": 768
   },
   "defaultAnimation": {
     "start": 0,
-    "end": 6,
+    "end": 31,
     "fps": 30,
     "loop": true
   },
