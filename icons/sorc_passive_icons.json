@@ -2,14 +2,14 @@
   "generatedBy": "Sorceress Sprite Analyzer",
   "sprite": "sorc_passive_icons",
   "image": "sorc_passive_icons.png",
-  "frameWidth": 185,
-  "frameHeight": 184,
+  "frameWidth": 422,
+  "frameHeight": 422,
   "sheet": {
     "cols": 2,
     "rows": 2,
     "frames": 3,
-    "imageWidth": 370,
-    "imageHeight": 368
+    "imageWidth": 844,
+    "imageHeight": 844
   },
   "defaultAnimation": {
     "start": 0,
