@@ -12,10 +12,15 @@ HTML (in a block between `<!-- PRO-UI-SKIN:START -->` and `<!-- PRO-UI-SKIN:END 
 | `divider_gold.png` | thin frame for icon/favorite skill pills |
 | `reaper_barframe.png` | bronze bar frame (HP / rage / XP / mana troughs) |
 | `reaper_fill_red/orange/blue.png` | vivid bar fills |
+| `coin_gold.png` | gold coin icon — replaces the `⬡` glyph wherever gold is shown |
 
-~412 KB total. Only the pieces actually used are included (the unused `fill_red` and
-`reaper_fill_gold` were dropped). PNGs are already max-compressed — lossless re-encode
+~413 KB total (11 files). Only the pieces actually used are included (the unused `fill_red`
+and `reaper_fill_gold` were dropped). PNGs are already max-compressed — lossless re-encode
 yields 0 bytes, so shrinking further would mean quality loss.
+
+**Frame colours** are normally auto-picked from each popup's border colour, but three menus are
+pinned explicitly in the skin: Skill Levels → `panel_blue`, Ascendancy → `panel_purple`,
+Crafting → `panel_gold`.
 
 ## How it's wired
 - This folder must sit **next to the game HTML** — the skin loads pieces by the relative
