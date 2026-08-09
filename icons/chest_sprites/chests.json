@@ -1,0 +1,74 @@
+{
+  "wood": {
+    "frameWidth": 214,
+    "frameHeight": 230,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "gold": {
+    "frameWidth": 219,
+    "frameHeight": 240,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "stone": {
+    "frameWidth": 224,
+    "frameHeight": 245,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "ornate": {
+    "frameWidth": 224,
+    "frameHeight": 245,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "bone": {
+    "frameWidth": 224,
+    "frameHeight": 240,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "frost": {
+    "frameWidth": 219,
+    "frameHeight": 245,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "sunken": {
+    "frameWidth": 252,
+    "frameHeight": 250,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  },
+  "rune": {
+    "frameWidth": 224,
+    "frameHeight": 250,
+    "frames": 2,
+    "order": [
+      "closed",
+      "open"
+    ]
+  }
+}
