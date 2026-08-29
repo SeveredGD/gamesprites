@@ -1,0 +1,181 @@
+{
+  "generatedBy": "everdeep-item-sheets",
+  "category": "missing-combat-icons",
+  "image": "missing-combat-icons-page-02.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalIconSize": 32,
+  "padding": 2,
+  "backgroundCleanupApplied": true,
+  "pixelCleanup": {
+    "renderMode": "smooth",
+    "downsample": "lanczos",
+    "binaryAlpha": false,
+    "paletteColorsPerIcon": 48,
+    "outline": "preserved from generated source"
+  },
+  "coordinateConvention": "zero-based row and col; pixel x and y identify the 64px source cell",
+  "sheet": {
+    "cols": 7,
+    "rows": 2,
+    "frames": 14,
+    "imageWidth": 448,
+    "imageHeight": 128
+  },
+  "frames": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Battle Axe"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Theatrical Mask"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Antique Clock"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Slot Machine"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Toxic Hazard"
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "col": 5,
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Playing Card"
+    },
+    {
+      "index": 6,
+      "row": 0,
+      "col": 6,
+      "x": 384,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Red Target"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 0,
+      "x": 0,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Greed Face"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 1,
+      "x": 64,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Wrapped Candy"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 2,
+      "x": 128,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Strength Fist"
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "col": 3,
+      "x": 192,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Battery"
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "col": 4,
+      "x": 256,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Health Heart"
+    },
+    {
+      "index": 12,
+      "row": 1,
+      "col": 5,
+      "x": 320,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Hourglass"
+    },
+    {
+      "index": 13,
+      "row": 1,
+      "col": 6,
+      "x": 384,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Clockwork Robot"
+    }
+  ]
+}
