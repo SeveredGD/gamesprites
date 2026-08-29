@@ -1,0 +1,90 @@
+{
+  "format": "everdeep-nine-slice-asset-pack",
+  "version": 1,
+  "canvas": {
+    "plaques": [1536, 430],
+    "buttons": [1536, 256]
+  },
+  "assets": [
+    {
+      "id": "silver-plaque-laurel-sentinel",
+      "name": "P1 · Laurel Sentinel",
+      "kind": "display-plaque",
+      "path": "plaques/plaque-laurel-sentinel.png",
+      "slice": [100, 240, 100, 240],
+      "borderWidth": [18, 42, 18, 42]
+    },
+    {
+      "id": "silver-plaque-thorn-corners",
+      "name": "P2 · Thorn Corners",
+      "kind": "display-plaque",
+      "path": "plaques/plaque-thorn-corners.png",
+      "slice": [105, 210, 105, 210],
+      "borderWidth": [19, 38, 19, 38]
+    },
+    {
+      "id": "silver-plaque-cathedral-tabs",
+      "name": "P3 · Cathedral Tabs",
+      "kind": "display-plaque",
+      "path": "plaques/plaque-cathedral-tabs.png",
+      "slice": [100, 240, 100, 240],
+      "borderWidth": [18, 42, 18, 42]
+    },
+    {
+      "id": "silver-plaque-chain-seal",
+      "name": "P4 · Chain Seal",
+      "kind": "display-plaque",
+      "path": "plaques/plaque-chain-seal.png",
+      "slice": [100, 230, 100, 230],
+      "borderWidth": [18, 40, 18, 40]
+    },
+    {
+      "id": "silver-plaque-crescent-acanthus",
+      "name": "P5 · Crescent Acanthus",
+      "kind": "display-plaque",
+      "path": "plaques/plaque-crescent-acanthus.png",
+      "slice": [105, 220, 105, 220],
+      "borderWidth": [19, 40, 19, 40]
+    },
+    {
+      "id": "silver-button-needle-clamp",
+      "name": "B1 · Needle Clamp",
+      "kind": "compact-button",
+      "path": "buttons/button-needle-clamp.png",
+      "slice": [58, 200, 58, 200],
+      "borderWidth": [7, 18, 7, 18]
+    },
+    {
+      "id": "silver-button-rivet-cap",
+      "name": "B2 · Rivet Cap",
+      "kind": "compact-button",
+      "path": "buttons/button-rivet-cap.png",
+      "slice": [56, 185, 56, 185],
+      "borderWidth": [7, 17, 7, 17]
+    },
+    {
+      "id": "silver-button-slim-chain",
+      "name": "B3 · Slim Chain",
+      "kind": "compact-button",
+      "path": "buttons/button-slim-chain.png",
+      "slice": [54, 190, 54, 190],
+      "borderWidth": [7, 18, 7, 18]
+    },
+    {
+      "id": "silver-button-knife-wing",
+      "name": "B4 · Knife Wing",
+      "kind": "compact-button",
+      "path": "buttons/button-knife-wing.png",
+      "slice": [58, 220, 58, 220],
+      "borderWidth": [7, 20, 7, 20]
+    },
+    {
+      "id": "silver-button-diamond-brace",
+      "name": "B5 · Diamond Brace",
+      "kind": "compact-button",
+      "path": "buttons/button-diamond-brace.png",
+      "slice": [58, 205, 58, 205],
+      "borderWidth": [7, 19, 7, 19]
+    }
+  ]
+}

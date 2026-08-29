@@ -1,0 +1,288 @@
+{
+  "format": "everdeep-ornate-silver-skin-bundle",
+  "version": 4,
+  "sourceLayout": "Everdeep_Floating_Layout_v4.html",
+  "assetRoot": "skins/ornate-silver/assets/",
+  "files": [
+    {
+      "path": "assets/buttons/button-chain-bracket.png",
+      "bytes": 555093,
+      "sha256": "c6915641b5bae1c7a21b83db04ccfe375e60e17fa012b9dc5c3b12ee51f3aeeb"
+    },
+    {
+      "path": "assets/buttons/button-winged-plaque.png",
+      "bytes": 486155,
+      "sha256": "31c46dd23d4390f94c01582e2c26e32ab1be78a7a43b2e0cd3562ac9ad601d4b"
+    },
+    {
+      "path": "assets/classic/BarBasic_Standart.png",
+      "bytes": 1593247,
+      "sha256": "8585d6ce3b5d239392d8ef7c36f0ba65f656a0815731b3744125b95c616a06f6"
+    },
+    {
+      "path": "assets/composites/grimoire-flat-ornate-silver.png",
+      "bytes": 1340789,
+      "sha256": "22937c08104ce8a24af639a2fa3c8ee2eaac8edfa414697f7be07eaaa5c7785f"
+    },
+    {
+      "path": "assets/frames/frame-cathedral.png",
+      "bytes": 272060,
+      "sha256": "e3cc59ee69eff5233580524bcdfc0986b7cd5229662e755cca4255a9c27e22e6"
+    },
+    {
+      "path": "assets/frames/frame-crown-spire-subtle.png",
+      "bytes": 171931,
+      "sha256": "822d9b85fd3c292fd6a563bbc665d605ae37ed38dba5d6ecc83d1855cba59bc9"
+    },
+    {
+      "path": "assets/frames/frame-thorned-reliquary.png",
+      "bytes": 241945,
+      "sha256": "17a4d7c6ef636937f7e257d916d506f09ad14fc2b266676a6ad5b50ef931dc35"
+    },
+    {
+      "path": "assets/frames/gold-display-frame.png",
+      "bytes": 103752,
+      "sha256": "c06b9c7c29e108c023fca982f70365bf6979e0299db3d6e0ce15850720d90a12"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-acanthus-wings.png",
+      "bytes": 483646,
+      "sha256": "07b931158830f2fb567f4d5bdd75fa1aff5fb704f955792e4f72530d18baad1a"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-chain-bracket.png",
+      "bytes": 555093,
+      "sha256": "c6915641b5bae1c7a21b83db04ccfe375e60e17fa012b9dc5c3b12ee51f3aeeb"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-diamond-brace.png",
+      "bytes": 270760,
+      "sha256": "c753431ad4ca2d430676d5a98b8d97c804adbbe642785059f6c7756ee54815fb"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-fleur-flare.png",
+      "bytes": 546719,
+      "sha256": "e56cbcf36b2805c31d5d1c318cd8a62d4b30e1d2acd60cd18343057c096a0138"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-knife-wing.png",
+      "bytes": 230348,
+      "sha256": "542ebc76f878a2055d31e8cad7e9661d389ea4bb851dede4ef6457d18060abd4"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-minimal-needle-notch.png",
+      "bytes": 1050901,
+      "sha256": "6f470e1fb6ba1ea1468d4b9f4fd9b21f240ef4ae20088171ebaecf9a6c86470d"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-minimal-pin-rivet.png",
+      "bytes": 1049779,
+      "sha256": "1a74869167694ed57ce0139adf5e1c373530300128c9748e3cc73399da1afc34"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-minimal-quiet-diamond.png",
+      "bytes": 961533,
+      "sha256": "863dbcb101dd958c772fded330a4e181e603cde4bdf6c9dc06b2679004f7188e"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-minimal-quiet-rune.png",
+      "bytes": 1170926,
+      "sha256": "386c107c511dad90cae165d17d67200606a779411abd7f1a2b6529d15438d94d"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-minimal-split-bevel.png",
+      "bytes": 1254320,
+      "sha256": "081859f3a539857b00404300a3f1b891e0cbfb39b9ad7364881363a82e9a67c8"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-needle-clamp.png",
+      "bytes": 164070,
+      "sha256": "4d118a3ef84cf9d978e009b97c342fedd20346cbd20ef0fea89e1ee4e95f449a"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-rivet-cap.png",
+      "bytes": 209122,
+      "sha256": "7face2368974208c6740622bcb0867a5530e17aec2c675462e90a6a8755f3341"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-rune-tab.png",
+      "bytes": 479427,
+      "sha256": "28788176e4c3598ee3d4b58cdf61374a5942a41a17c21e27f187ac4f7b941f2e"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-slim-chain.png",
+      "bytes": 199096,
+      "sha256": "e85bdf4089305e78650a78ef19f61bbe869706bc7a6367baef6f953afc53ad4c"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-spearpoint.png",
+      "bytes": 473498,
+      "sha256": "03599360082e676dd70aafe4a5411c3ed7d3fc4c993b3e73035cdb0020c482ab"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-thorn-hooks.png",
+      "bytes": 485445,
+      "sha256": "c386ee8c91f469e6de90399b5ba0ec62b5c2162c53c9d1f6ca0baa65181b513c"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-widow-web.png",
+      "bytes": 501573,
+      "sha256": "5f0632ed1ca4355a95c683879b48d5fc31434abb9a8ada41d21c28db7d070c66"
+    },
+    {
+      "path": "assets/ornate-silver/buttons/button-winged-plaque.png",
+      "bytes": 486155,
+      "sha256": "31c46dd23d4390f94c01582e2c26e32ab1be78a7a43b2e0cd3562ac9ad601d4b"
+    },
+    {
+      "path": "assets/ornate-silver/classic/BarBasic_Standart.png",
+      "bytes": 1593247,
+      "sha256": "8585d6ce3b5d239392d8ef7c36f0ba65f656a0815731b3744125b95c616a06f6"
+    },
+    {
+      "path": "assets/ornate-silver/classic/ButtonMediumDark.png",
+      "bytes": 55903,
+      "sha256": "8de9027f5f3a722c78827767d9c4924cd04b09ce1c16727b67171fe68c2d6cba"
+    },
+    {
+      "path": "assets/ornate-silver/classic/ButtonMediumDarkPressed.png",
+      "bytes": 46747,
+      "sha256": "723aa6186791fda37e27a4ff827e51d970f54a28609559f58df05ed9d24e8fe1"
+    },
+    {
+      "path": "assets/ornate-silver/composites/grimoire-flat-ornate-silver.png",
+      "bytes": 1340789,
+      "sha256": "22937c08104ce8a24af639a2fa3c8ee2eaac8edfa414697f7be07eaaa5c7785f"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-acanthus-halo-subtle.png",
+      "bytes": 182422,
+      "sha256": "90da4af05a4e7a7b7917cf1c372bfc76d14ef1c0a3835c9275a02935e17c3a6d"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-acanthus-halo.png",
+      "bytes": 326734,
+      "sha256": "a7845c0aece48ea1728f49b8cefedf048a209150df8f06a68c639163670d20eb"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-cathedral.png",
+      "bytes": 272060,
+      "sha256": "e3cc59ee69eff5233580524bcdfc0986b7cd5229662e755cca4255a9c27e22e6"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-crescent-vine.png",
+      "bytes": 340897,
+      "sha256": "65a4d00b3d815afbef4fc86a11fcd33777d9c5ce8971828bf9eb10d31b939976"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-crown-spire-subtle.png",
+      "bytes": 171931,
+      "sha256": "822d9b85fd3c292fd6a563bbc665d605ae37ed38dba5d6ecc83d1855cba59bc9"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-crown-spire.png",
+      "bytes": 288308,
+      "sha256": "76cc20c712ab8cb447e81744d76e022c9a6a120382ffb307d7e9e7da0a734d46"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-fleur-sentinel-subtle.png",
+      "bytes": 210733,
+      "sha256": "43c77bc1d571cb88671e7e88e03bfda2624da191a6cf4a2ffcf0f029fb04944c"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-fleur-sentinel.png",
+      "bytes": 287942,
+      "sha256": "f37a3013c3d011074b9146833741c416a707ea5588caf58f4f053714dbb019bc"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-rune-lock.png",
+      "bytes": 232822,
+      "sha256": "f6bafe9e356d63a92abc186a08ebb87380d3d19289a680702e673f995ad34378"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-thorned-reliquary.png",
+      "bytes": 241945,
+      "sha256": "17a4d7c6ef636937f7e257d916d506f09ad14fc2b266676a6ad5b50ef931dc35"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-widow-lace-subtle.png",
+      "bytes": 221235,
+      "sha256": "b11cf654db0c5bc09fb8b83aa875f9731dda90b69a0fecedcf80c1ef1f8c82e1"
+    },
+    {
+      "path": "assets/ornate-silver/frames/frame-widow-lace.png",
+      "bytes": 260665,
+      "sha256": "67851eb2c878f6342d1442ed94b5c43aebff5ff32e868c6e589f904181bb41e6"
+    },
+    {
+      "path": "assets/ornate-silver/new-ornate-assets.json",
+      "bytes": 2616,
+      "sha256": "f99a61f957f1e83954ee590ea8b4a1b0600573c5a13a85b1d9971c21877ffc62"
+    },
+    {
+      "path": "assets/ornate-silver/plaques/plaque-cathedral-tabs.png",
+      "bytes": 633408,
+      "sha256": "285d15ab769c7cc71f1024dd6db8dde76c20acb76adb93fee5eaf8d3f336cb11"
+    },
+    {
+      "path": "assets/ornate-silver/plaques/plaque-chain-seal.png",
+      "bytes": 593154,
+      "sha256": "da95f761d65880ad44a95cb0d433a716bb53f2bc5f5d6a81d75655674ccf9a57"
+    },
+    {
+      "path": "assets/ornate-silver/plaques/plaque-crescent-acanthus.png",
+      "bytes": 563364,
+      "sha256": "7eb03dc44cc66ff3e0a1e7974a3794a0289f0d4566158ff2d7a5b44ef58a8683"
+    },
+    {
+      "path": "assets/ornate-silver/plaques/plaque-laurel-sentinel.png",
+      "bytes": 509246,
+      "sha256": "4b737a3a90fc46a832ef54d4c2941247726b3f08d4dbb2986c0dee47bd4f90fc"
+    },
+    {
+      "path": "assets/ornate-silver/plaques/plaque-thorn-corners.png",
+      "bytes": 592066,
+      "sha256": "0da585f114716e1a735604cb11060836fcafde9bb730561299adb978ca3826d5"
+    },
+    {
+      "path": "assets/ornate-silver/preview-new-ornate-assets.png",
+      "bytes": 355052,
+      "sha256": "4468b8dab2607bd159a277504bab2f20c25e47928cefd557184c1c166ba5c47e"
+    },
+    {
+      "path": "assets/surfaces/silver-panel-interior.png",
+      "bytes": 448752,
+      "sha256": "254af34c892e9c15024a50fc5f1100a6035d06f4025cc7f72007cefc783f039b"
+    },
+    {
+      "path": "integration/everdeep-reskin-map-v4-baseline.json",
+      "bytes": 84244,
+      "sha256": "7f1feb3f5a74c85b991fb8814c031f128bf6eda127a0f5fc88df426f915f5481"
+    },
+    {
+      "path": "integration/everdeep-v4-skin-config.json",
+      "bytes": 4772,
+      "sha256": "ccf7dd4fd9641ec8fb0c6c6f32a56f7404d3dba7e25d10bb82b72be244664456"
+    },
+    {
+      "path": "integration/ornate-silver-v4.css",
+      "bytes": 7927,
+      "sha256": "5c8fd921a44090ec0484b6c666d51eabc4bd4e2a0d5717b3947d1fa9a527599f"
+    },
+    {
+      "path": "integration/ornate-silver-v4.js",
+      "bytes": 26272,
+      "sha256": "b023c22aa1a357d904fd6bf3af5ac2d1fc981910b31fe772131d4448da2d41ec"
+    },
+    {
+      "path": "integration/package-ornate-silver.ps1",
+      "bytes": 3865,
+      "sha256": "60206e8f2656977e69818d81968035ea369c0211c3b1a020e1178ec84edd439c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1944,
+      "sha256": "1e1edd532629a593341ae0ea12620f5f86a37a55e5ad7ba335af716849400e50"
+    }
+  ]
+}
