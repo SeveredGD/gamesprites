@@ -1,0 +1,31 @@
+{
+  "name": "ossuary-dual-frame-ornate-silver",
+  "sourceSize": { "width": 1935, "height": 813 },
+  "productionStage": { "width": 1284, "height": 540 },
+  "alpha": "straight",
+  "contentWells": {
+    "equipment": { "x": 132, "y": 88, "width": 763, "height": 631 },
+    "vault": { "x": 1038, "y": 88, "width": 762, "height": 631 }
+  },
+  "normalizedContentWells": {
+    "equipment": { "x": 0.068217, "y": 0.108241, "width": 0.394315, "height": 0.776138 },
+    "vault": { "x": 0.536434, "y": 0.108241, "width": 0.393798, "height": 0.776138 }
+  },
+  "assembly": {
+    "outer": {
+      "fixed": ["outer-top-left", "outer-top-right", "outer-bottom-left", "outer-bottom-right"],
+      "stretchX": ["outer-top-edge", "outer-bottom-edge"],
+      "stretchY": ["outer-left-edge", "outer-right-edge"]
+    },
+    "divider": {
+      "fixed": ["divider-top", "divider-bottom"],
+      "stretchY": ["divider-middle"]
+    }
+  },
+  "notes": [
+    "The divider is intentionally independent from the outer frame so skull and finial ornaments never stretch.",
+    "Use the normalized content wells when the complete master is scaled as one fixed-ratio asset.",
+    "For variable-width layouts, assemble the exported outer and divider slices instead of stretching the complete master.",
+    "The generated RGB source is retained for provenance; use one of the RGBA master files in production."
+  ]
+}
