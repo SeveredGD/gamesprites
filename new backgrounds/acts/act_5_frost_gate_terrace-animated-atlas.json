@@ -1,0 +1,22 @@
+{
+  "generatedBy": "Everdeep combat background builder",
+  "sprite": "act_5_frost_gate_terrace",
+  "image": "act_5_frost_gate_terrace-animated-atlas.webp",
+  "frameWidth": 455,
+  "frameHeight": 256,
+  "sheet": {
+    "cols": 9,
+    "rows": 8,
+    "frames": 72,
+    "imageWidth": 4095,
+    "imageHeight": 2048
+  },
+  "defaultAnimation": {
+    "start": 0,
+    "end": 71,
+    "fps": 12,
+    "loop": true
+  },
+  "durationSeconds": 6.0,
+  "note": "Seamless ambient loop: diagonal blowing snow and a soft full-scene snow veil; ground remains fixed."
+}

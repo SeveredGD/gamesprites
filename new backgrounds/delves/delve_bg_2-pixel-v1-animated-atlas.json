@@ -1,0 +1,22 @@
+{
+  "generatedBy": "Everdeep combat background builder",
+  "sprite": "delve_bg_2-pixel-v1",
+  "image": "delve_bg_2-pixel-v1-animated-atlas.webp",
+  "frameWidth": 512,
+  "frameHeight": 256,
+  "sheet": {
+    "cols": 9,
+    "rows": 8,
+    "frames": 72,
+    "imageWidth": 4608,
+    "imageHeight": 2048
+  },
+  "defaultAnimation": {
+    "start": 0,
+    "end": 71,
+    "fps": 12,
+    "loop": true
+  },
+  "durationSeconds": 6.0,
+  "note": "Seamless ambient loop: rising chasm haze, cyan and violet pulses, lantern flicker, sparse motes."
+}
