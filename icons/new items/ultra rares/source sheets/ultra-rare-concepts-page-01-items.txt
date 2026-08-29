@@ -1,0 +1,36 @@
+Glass Cannon — Primary
+Glass Cannon — Alternate
+Threshold of the Deep — Primary
+Threshold of the Deep — Alternate
+The Endless Hunger — Primary
+The Endless Hunger — Alternate
+Striders of the Void — Primary
+Striders of the Void — Alternate
+Severed — Primary
+Severed — Alternate
+Armor of Questank — Primary
+Armor of Questank — Alternate
+Ashkar, the Everflame — Primary
+Ashkar, the Everflame — Alternate A
+Iskaryn, the Winter's Grasp — Primary
+Iskaryn, the Winter's Grasp — Alternate A
+Ordran, Strength of Kings — Primary
+Ordran, Strength of Kings — Alternate A
+Vaelor, the Stormbound — Primary
+Vaelor, the Stormbound — Alternate A
+The Sanguine Maw — Primary
+The Sanguine Maw — Alternate A
+Chalice of the Red Maw — Primary
+Chalice of the Red Maw — Alternate A
+Coil of the Deathless — Primary
+Coil of the Deathless — Alternate A
+Bloodgorged Treads — Primary
+Bloodgorged Treads — Alternate A
+Ashkar, the Everflame — Alternate B
+Iskaryn, the Winter's Grasp — Alternate B
+Ordran, Strength of Kings — Alternate B
+Vaelor, the Stormbound — Alternate B
+The Sanguine Maw — Alternate B
+Chalice of the Red Maw — Alternate B
+Coil of the Deathless — Alternate B
+Bloodgorged Treads — Alternate B

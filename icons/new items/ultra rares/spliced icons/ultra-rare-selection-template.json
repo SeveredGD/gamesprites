@@ -1,0 +1,293 @@
+{
+  "instructions": "Set chosenVersion to detailed or simplified; optionally replace suggestedName.",
+  "selections": [
+    {
+      "index": 1,
+      "family": "Glass Cannon",
+      "concept": "Primary",
+      "suggestedName": "Shardheart Cuirass",
+      "filename": "01-shardheart-cuirass.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 2,
+      "family": "Glass Cannon",
+      "concept": "Alternate",
+      "suggestedName": "Ruinlens Carapace",
+      "filename": "02-ruinlens-carapace.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 3,
+      "family": "Threshold of the Deep",
+      "concept": "Primary",
+      "suggestedName": "Veilstep Greaves",
+      "filename": "03-veilstep-greaves.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 4,
+      "family": "Threshold of the Deep",
+      "concept": "Alternate",
+      "suggestedName": "Gatewalker Boots",
+      "filename": "04-gatewalker-boots.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 5,
+      "family": "The Endless Hunger",
+      "concept": "Primary",
+      "suggestedName": "Forever's Maw",
+      "filename": "05-forevers-maw.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 6,
+      "family": "The Endless Hunger",
+      "concept": "Alternate",
+      "suggestedName": "Relic-Eater Coil",
+      "filename": "06-relic-eater-coil.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 7,
+      "family": "Striders of the Void",
+      "concept": "Primary",
+      "suggestedName": "Starless Striders",
+      "filename": "07-starless-striders.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 8,
+      "family": "Striders of the Void",
+      "concept": "Alternate",
+      "suggestedName": "Nullward Greaves",
+      "filename": "08-nullward-greaves.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 9,
+      "family": "Severed",
+      "concept": "Primary",
+      "suggestedName": "Redline Severance",
+      "filename": "09-redline-severance.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 10,
+      "family": "Severed",
+      "concept": "Alternate",
+      "suggestedName": "Oathsplitter",
+      "filename": "10-oathsplitter.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 11,
+      "family": "Armor of Questank",
+      "concept": "Primary",
+      "suggestedName": "Plagueward Panoply",
+      "filename": "11-plagueward-panoply.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 12,
+      "family": "Armor of Questank",
+      "concept": "Alternate",
+      "suggestedName": "Triune Carapace",
+      "filename": "12-triune-carapace.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 13,
+      "family": "Ashkar, the Everflame",
+      "concept": "Primary",
+      "suggestedName": "Crownfire Signet",
+      "filename": "13-crownfire-signet.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 14,
+      "family": "Ashkar, the Everflame",
+      "concept": "Alternate A",
+      "suggestedName": "Ember Ouroboros",
+      "filename": "14-ember-ouroboros.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 15,
+      "family": "Iskaryn, the Winter's Grasp",
+      "concept": "Primary",
+      "suggestedName": "Rimeclaw Band",
+      "filename": "15-rimeclaw-band.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 16,
+      "family": "Iskaryn, the Winter's Grasp",
+      "concept": "Alternate A",
+      "suggestedName": "Wintercrown Loop",
+      "filename": "16-wintercrown-loop.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 17,
+      "family": "Ordran, Strength of Kings",
+      "concept": "Primary",
+      "suggestedName": "King's Fist",
+      "filename": "17-kings-fist.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 18,
+      "family": "Ordran, Strength of Kings",
+      "concept": "Alternate A",
+      "suggestedName": "Ordran's Iron Crown",
+      "filename": "18-ordrans-iron-crown.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 19,
+      "family": "Vaelor, the Stormbound",
+      "concept": "Primary",
+      "suggestedName": "Stormcoil Band",
+      "filename": "19-stormcoil-band.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 20,
+      "family": "Vaelor, the Stormbound",
+      "concept": "Alternate A",
+      "suggestedName": "Skywing Signet",
+      "filename": "20-skywing-signet.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 21,
+      "family": "The Sanguine Maw",
+      "concept": "Primary",
+      "suggestedName": "Hungerblade",
+      "filename": "21-hungerblade.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 22,
+      "family": "The Sanguine Maw",
+      "concept": "Alternate A",
+      "suggestedName": "Red Jaw Reaver",
+      "filename": "22-red-jaw-reaver.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 23,
+      "family": "Chalice of the Red Maw",
+      "concept": "Primary",
+      "suggestedName": "Fanged Grail",
+      "filename": "23-fanged-grail.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 24,
+      "family": "Chalice of the Red Maw",
+      "concept": "Alternate A",
+      "suggestedName": "Heartcup Reliquary",
+      "filename": "24-heartcup-reliquary.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 25,
+      "family": "Coil of the Deathless",
+      "concept": "Primary",
+      "suggestedName": "Bloodbank Coil",
+      "filename": "25-bloodbank-coil.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 26,
+      "family": "Coil of the Deathless",
+      "concept": "Alternate A",
+      "suggestedName": "Deathless Serpent",
+      "filename": "26-deathless-serpent.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 27,
+      "family": "Bloodgorged Treads",
+      "concept": "Primary",
+      "suggestedName": "Veinrunner Treads",
+      "filename": "27-veinrunner-treads.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 28,
+      "family": "Bloodgorged Treads",
+      "concept": "Alternate A",
+      "suggestedName": "Last-Breath Greaves",
+      "filename": "28-last-breath-greaves.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 29,
+      "family": "Ashkar, the Everflame",
+      "concept": "Alternate B",
+      "suggestedName": "Black Sun of Ashkar",
+      "filename": "29-black-sun-of-ashkar.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 30,
+      "family": "Iskaryn, the Winter's Grasp",
+      "concept": "Alternate B",
+      "suggestedName": "Iskaryn's Snowcoil",
+      "filename": "30-iskaryns-snowcoil.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 31,
+      "family": "Ordran, Strength of Kings",
+      "concept": "Alternate B",
+      "suggestedName": "Lionseal of Ordran",
+      "filename": "31-lionseal-of-ordran.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 32,
+      "family": "Vaelor, the Stormbound",
+      "concept": "Alternate B",
+      "suggestedName": "Vaelor's Thunderhead",
+      "filename": "32-vaelors-thunderhead.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 33,
+      "family": "The Sanguine Maw",
+      "concept": "Alternate B",
+      "suggestedName": "Mawcleaver",
+      "filename": "33-mawcleaver.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 34,
+      "family": "Chalice of the Red Maw",
+      "concept": "Alternate B",
+      "suggestedName": "The Red Communion",
+      "filename": "34-the-red-communion.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 35,
+      "family": "Coil of the Deathless",
+      "concept": "Alternate B",
+      "suggestedName": "Deathless Reservoir",
+      "filename": "35-deathless-reservoir.png",
+      "chosenVersion": null
+    },
+    {
+      "index": 36,
+      "family": "Bloodgorged Treads",
+      "concept": "Alternate B",
+      "suggestedName": "Bloodclaw Treads",
+      "filename": "36-bloodclaw-treads.png",
+      "chosenVersion": null
+    }
+  ]
+}
