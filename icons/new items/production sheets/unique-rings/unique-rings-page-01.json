@@ -1,0 +1,302 @@
+{
+  "generatedBy": "everdeep-item-sheets",
+  "category": "unique-rings",
+  "image": "unique-rings-page-01.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalIconSize": 32,
+  "padding": 2,
+  "backgroundCleanupApplied": true,
+  "pixelCleanup": {
+    "renderMode": "smooth",
+    "downsample": "lanczos",
+    "binaryAlpha": false,
+    "paletteColorsPerIcon": 48,
+    "outline": "preserved from generated source"
+  },
+  "coordinateConvention": "zero-based row and col; pixel x and y identify the 64px source cell",
+  "sheet": {
+    "cols": 5,
+    "rows": 5,
+    "frames": 25,
+    "imageWidth": 320,
+    "imageHeight": 320
+  },
+  "frames": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Band of Endless Hunger"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Tidecaller's Seal"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Stormcoil Band"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Sigil of the Unmoved"
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "col": 4,
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "The Ouroboros"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 0,
+      "x": 0,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "A loop of string"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 1,
+      "x": 64,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Gambler's Sigil"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 2,
+      "x": 128,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ring of Avarice"
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "col": 3,
+      "x": 192,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Coil of the Abyss"
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "col": 4,
+      "x": 256,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Plunder's Promise"
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 0,
+      "x": 0,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ghostlight"
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 1,
+      "x": 64,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Black Sun"
+    },
+    {
+      "index": 12,
+      "row": 2,
+      "col": 2,
+      "x": 128,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Brightburn"
+    },
+    {
+      "index": 13,
+      "row": 2,
+      "col": 3,
+      "x": 192,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Stone of Gorgon"
+    },
+    {
+      "index": 14,
+      "row": 2,
+      "col": 4,
+      "x": 256,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ring of Virulence"
+    },
+    {
+      "index": 15,
+      "row": 3,
+      "col": 0,
+      "x": 0,
+      "y": 192,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Pyromaniac's Lens"
+    },
+    {
+      "index": 16,
+      "row": 3,
+      "col": 1,
+      "x": 64,
+      "y": 192,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ring of the Riven"
+    },
+    {
+      "index": 17,
+      "row": 3,
+      "col": 2,
+      "x": 128,
+      "y": 192,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Hunter's Ledger"
+    },
+    {
+      "index": 18,
+      "row": 3,
+      "col": 3,
+      "x": 192,
+      "y": 192,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "The Warmark"
+    },
+    {
+      "index": 19,
+      "row": 3,
+      "col": 4,
+      "x": 256,
+      "y": 192,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Band of the Ember Court"
+    },
+    {
+      "index": 20,
+      "row": 4,
+      "col": 0,
+      "x": 0,
+      "y": 256,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Coil of Static"
+    },
+    {
+      "index": 21,
+      "row": 4,
+      "col": 1,
+      "x": 64,
+      "y": 256,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Worldseal"
+    },
+    {
+      "index": 22,
+      "row": 4,
+      "col": 2,
+      "x": 128,
+      "y": 256,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Loop of the Everdeep"
+    },
+    {
+      "index": 23,
+      "row": 4,
+      "col": 3,
+      "x": 192,
+      "y": 256,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Signet of Sovereignty"
+    },
+    {
+      "index": 24,
+      "row": 4,
+      "col": 4,
+      "x": 256,
+      "y": 256,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Rimebound Loop"
+    }
+  ]
+}
