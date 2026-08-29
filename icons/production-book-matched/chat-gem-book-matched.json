@@ -1,0 +1,47 @@
+{
+  "cell_size": 64,
+  "layout": "4 columns x 2 rows; OFF row then ON row",
+  "palette_reference": "C:\\Users\\garre\\Downloads\\Everdeep_Floating_Layout_v4\\skins\\ornate-silver\\assets\\ornate-silver\\composites\\grimoire-flat-ornate-silver.png",
+  "options": [
+    {
+      "option": 1,
+      "name": "Thorn-Cage Amethyst",
+      "off": "01-thorn-cage-amethyst-off.png",
+      "on": "01-thorn-cage-amethyst-on.png",
+      "sheet_frames": {
+        "off": 0,
+        "on": 4
+      }
+    },
+    {
+      "option": 2,
+      "name": "Runic Iris",
+      "off": "02-runic-iris-off.png",
+      "on": "02-runic-iris-on.png",
+      "sheet_frames": {
+        "off": 1,
+        "on": 5
+      }
+    },
+    {
+      "option": 3,
+      "name": "Crowned Soulstone",
+      "off": "03-crowned-soulstone-off.png",
+      "on": "03-crowned-soulstone-on.png",
+      "sheet_frames": {
+        "off": 2,
+        "on": 6
+      }
+    },
+    {
+      "option": 4,
+      "name": "Abyssal Rosette",
+      "off": "04-abyssal-rosette-off.png",
+      "on": "04-abyssal-rosette-on.png",
+      "sheet_frames": {
+        "off": 3,
+        "on": 7
+      }
+    }
+  ]
+}
