@@ -1,0 +1,34 @@
+{
+  "package": "Everdeep new items",
+  "created": "2026-08-28",
+  "cellSizes": {
+    "production": 64
+  },
+  "productionSheets": [
+    {"category": "warrior-weapons", "image": "production sheets/warrior-weapons/warrior-weapons-page-01-v2.png", "json": "production sheets/warrior-weapons/warrior-weapons-page-01-v2.json", "names": "production sheets/warrior-weapons/warrior-weapons-page-01-items.txt"},
+    {"category": "sorceress-weapons", "image": "production sheets/sorceress-weapons/sorceress-weapons-page-01.png", "json": "production sheets/sorceress-weapons/sorceress-weapons-page-01.json", "names": "production sheets/sorceress-weapons/sorceress-weapons-page-01-items.txt"},
+    {"category": "ranger-weapons", "image": "production sheets/ranger-weapons/ranger-weapons-page-01.png", "json": "production sheets/ranger-weapons/ranger-weapons-page-01.json", "names": "production sheets/ranger-weapons/ranger-weapons-page-01-items.txt"},
+    {"category": "rogue-weapons", "image": "production sheets/rogue-weapons/rogue-weapons-page-01.png", "json": "production sheets/rogue-weapons/rogue-weapons-page-01.json", "names": "production sheets/rogue-weapons/rogue-weapons-page-01-items.txt"},
+    {"category": "warrior-armor", "image": "production sheets/warrior-armor/warrior-armor-page-01.png", "json": "production sheets/warrior-armor/warrior-armor-page-01.json", "names": "production sheets/warrior-armor/warrior-armor-page-01-items.txt"},
+    {"category": "sorceress-armor", "image": "production sheets/sorceress-armor/sorceress-armor-page-01.png", "json": "production sheets/sorceress-armor/sorceress-armor-page-01.json", "names": "production sheets/sorceress-armor/sorceress-armor-page-01-items.txt"},
+    {"category": "ranger-armor", "image": "production sheets/ranger-armor/ranger-armor-page-01.png", "json": "production sheets/ranger-armor/ranger-armor-page-01.json", "names": "production sheets/ranger-armor/ranger-armor-page-01-items.txt"},
+    {"category": "rogue-armor", "image": "production sheets/rogue-armor/rogue-armor-page-01.png", "json": "production sheets/rogue-armor/rogue-armor-page-01.json", "names": "production sheets/rogue-armor/rogue-armor-page-01-items.txt"},
+    {"category": "rings", "image": "production sheets/rings/rings-page-01.png", "json": "production sheets/rings/rings-page-01.json", "names": "production sheets/rings/rings-page-01-items.txt"},
+    {"category": "amulets", "image": "production sheets/amulets/amulets-page-01.png", "json": "production sheets/amulets/amulets-page-01.json", "names": "production sheets/amulets/amulets-page-01-items.txt"},
+    {"category": "boots", "image": "production sheets/boots/boots-page-01.png", "json": "production sheets/boots/boots-page-01.json", "names": "production sheets/boots/boots-page-01-items.txt"},
+    {"category": "trinkets", "page": 1, "image": "production sheets/trinkets/trinkets-page-01.png", "json": "production sheets/trinkets/trinkets-page-01.json", "names": "production sheets/trinkets/trinkets-page-01-items.txt"},
+    {"category": "trinkets", "page": 2, "image": "production sheets/trinkets/trinkets-page-02.png", "json": "production sheets/trinkets/trinkets-page-02.json", "names": "production sheets/trinkets/trinkets-page-02-items.txt"},
+    {"category": "t3-uniques", "image": "production sheets/t3-uniques/t3-uniques-page-01.png", "json": "production sheets/t3-uniques/t3-uniques-page-01.json", "names": "production sheets/t3-uniques/t3-uniques-page-01-items.txt"}
+  ],
+  "ultraRares": {
+    "sourceSheets": "ultra rares/source sheets",
+    "splicedIcons": "ultra rares/spliced icons",
+    "detailed64": "ultra rares/spliced icons/v1-detailed/64px",
+    "detailed32": "ultra rares/spliced icons/v1-detailed/32px",
+    "simplified64": "ultra rares/spliced icons/v2-simplified/64px",
+    "simplified32": "ultra rares/spliced icons/v2-simplified/32px",
+    "namingManifest": "ultra rares/spliced icons/ultra-rare-splice-manifest.json",
+    "selectionTemplate": "ultra rares/spliced icons/ultra-rare-selection-template.json",
+    "picker": "ultra rares/spliced icons/ultra-rare-picker.html"
+  }
+}

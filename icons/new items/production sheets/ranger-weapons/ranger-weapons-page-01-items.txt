@@ -1,0 +1,36 @@
+Elm Shortbow
+Ash Shortbow
+Greenwrap Shortbow
+Bonewrap Shortbow
+Horn-Tip Bow
+Leather-Grip Bow
+Verdant Hunting Bow
+Sapphire Hunting Bow
+Antler Hunting Bow
+Iron-Braced Bow
+Ivory-Tip Bow
+Gilded Recurve
+Light Crossbow
+Hunting Crossbow
+Scout Crossbow
+Lever Crossbow
+Iron-Prodded Crossbow
+Compact Crossbow
+Heavy Crossbow
+Steel-Limbed Crossbow
+Windlass Crossbow
+Recurve Crossbow
+Ring-Stock Crossbow
+Tasselled Crossbow
+Gilded Arbalest
+Ruby Inlay Crossbow
+Emerald Inlay Crossbow
+Vinebound Crossbow
+Sapphire Arbalest
+Silver War Crossbow
+Moonstone Crossbow
+Hooked Repeater
+Jade War Crossbow
+Gilded Siege Bow
+Sunsteel Arbalest
+Froststeel Crossbow

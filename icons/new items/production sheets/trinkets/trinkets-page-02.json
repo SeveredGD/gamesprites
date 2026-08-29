@@ -1,0 +1,159 @@
+{
+  "generatedBy": "everdeep-item-sheets",
+  "category": "trinkets",
+  "image": "trinkets-page-02.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "logicalIconSize": 32,
+  "padding": 2,
+  "backgroundCleanupApplied": true,
+  "pixelCleanup": {
+    "renderMode": "smooth",
+    "downsample": "lanczos",
+    "binaryAlpha": false,
+    "paletteColorsPerIcon": 48,
+    "outline": "preserved from generated source"
+  },
+  "coordinateConvention": "zero-based row and col; pixel x and y identify the 64px source cell",
+  "sheet": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "imageWidth": 256,
+    "imageHeight": 192
+  },
+  "frames": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Bone Astrolabe"
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Pocket Orrery"
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Raven-Eye Marble"
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "col": 3,
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ember Censer"
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 0,
+      "x": 0,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Mothglass Specimen"
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 1,
+      "x": 64,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Whisper Shell"
+    },
+    {
+      "index": 6,
+      "row": 1,
+      "col": 2,
+      "x": 128,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Saint's Fingerbone"
+    },
+    {
+      "index": 7,
+      "row": 1,
+      "col": 3,
+      "x": 192,
+      "y": 64,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Witch's Thimble"
+    },
+    {
+      "index": 8,
+      "row": 2,
+      "col": 0,
+      "x": 0,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Goblin Puzzle Box"
+    },
+    {
+      "index": 9,
+      "row": 2,
+      "col": 1,
+      "x": 64,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Eclipsed Sundial"
+    },
+    {
+      "index": 10,
+      "row": 2,
+      "col": 2,
+      "x": 128,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Ashwood Totem"
+    },
+    {
+      "index": 11,
+      "row": 2,
+      "col": 3,
+      "x": 192,
+      "y": 128,
+      "width": 64,
+      "height": 64,
+      "logicalScale": 2.0,
+      "name": "Memory Prism"
+    }
+  ]
+}
