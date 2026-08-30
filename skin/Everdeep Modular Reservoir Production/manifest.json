@@ -1,0 +1,17 @@
+{
+  "name": "everdeep-modular-relic-reservoir-v4",
+  "availableHeights": [16, 20, 24, 28, 32, 40, 48],
+  "recommendedHeight": 20,
+  "preferredHeight": 24,
+  "sipsPerChamber": 2,
+  "states": {
+    "0": "empty",
+    "1": "half-full",
+    "2": "full"
+  },
+  "assembly": ["left", "center-repeat", "right"],
+  "gap": 0,
+  "overlap": 0,
+  "fillDirection": "left-to-right",
+  "assetPattern": "assets/{height}px/{part}-{state}.png"
+}
