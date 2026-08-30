@@ -1,0 +1,32 @@
+{
+  "name": "runeforge-strongbox-dual-frame",
+  "sourceSize": { "width": 1672, "height": 941 },
+  "assembledMaster": { "width": 1935, "height": 813 },
+  "productionStage": { "width": 1284, "height": 540 },
+  "alpha": "straight",
+  "contentWells": {
+    "equipment": { "x": 132, "y": 132, "width": 763, "height": 549 },
+    "vault": { "x": 1040, "y": 132, "width": 763, "height": 549 }
+  },
+  "normalizedContentWells": {
+    "equipment": { "x": 0.068217, "y": 0.162362, "width": 0.394315, "height": 0.675277 },
+    "vault": { "x": 0.537468, "y": 0.162362, "width": 0.394315, "height": 0.675277 }
+  },
+  "assembly": {
+    "outer": {
+      "fixed": ["outer-top-left", "outer-top-right", "outer-bottom-left", "outer-bottom-right"],
+      "stretchX": ["outer-top-edge", "outer-bottom-edge"],
+      "stretchY": ["outer-left-edge", "outer-right-edge"]
+    },
+    "divider": {
+      "fixed": ["divider-top", "divider-center-ornament", "divider-bottom"],
+      "stretchY": ["divider-upper-rail", "divider-lower-rail"]
+    }
+  },
+  "notes": [
+    "The 1935x813 master matches the Ossuary production master and downscales exactly to 1284x540.",
+    "The center rune medallion is a fixed overlay; never stretch it.",
+    "For variable-size layouts assemble the slices instead of stretching the complete master.",
+    "The original RGB concept is retained for provenance; production should use RGBA masters and slices."
+  ]
+}
