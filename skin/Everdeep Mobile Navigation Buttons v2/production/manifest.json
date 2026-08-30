@@ -1,0 +1,45 @@
+{
+  "format": "everdeep-mobile-nav-v2",
+  "labelsEmbedded": true,
+  "buttons": [
+    {
+      "size": 72,
+      "folder": "72px",
+      "states": [
+        "normal",
+        "active"
+      ]
+    },
+    {
+      "size": 80,
+      "folder": "80px",
+      "states": [
+        "normal",
+        "active"
+      ]
+    },
+    {
+      "size": 96,
+      "folder": "96px",
+      "states": [
+        "normal",
+        "active"
+      ]
+    },
+    {
+      "size": 128,
+      "folder": "128px",
+      "states": [
+        "normal",
+        "active"
+      ]
+    }
+  ],
+  "order": [
+    "combat",
+    "runs",
+    "gear",
+    "skills",
+    "more"
+  ]
+}
