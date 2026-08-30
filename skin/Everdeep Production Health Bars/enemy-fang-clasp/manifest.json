@@ -1,0 +1,46 @@
+{
+  "id": "enemy-fang-clasp",
+  "role": "enemy",
+  "name": "Fang Clasp",
+  "version": 1,
+  "size": {
+    "width": 384,
+    "height": 40
+  },
+  "interior": {
+    "x": 24,
+    "y": 11,
+    "width": 337,
+    "height": 17
+  },
+  "nineSlice": {
+    "left": 24,
+    "right": 23,
+    "top": 11,
+    "bottom": 12
+  },
+  "layers": {
+    "bezel": "layers/bezel.png",
+    "stretchableBezel": "layers/bezel-stretchable.png",
+    "track": "layers/track.png",
+    "fill": "layers/fill.png",
+    "trackTile": "layers/track-tile.png",
+    "fillTile": "layers/fill-tile.png",
+    "fillLeadingEdge": "layers/fill-leading-edge.png",
+    "emptyComposite": "layers/empty-composite.png",
+    "fullComposite": "layers/full-composite.png"
+  },
+  "slices": {
+    "left": "slices/bezel-left.png",
+    "center": "slices/bezel-center-1px.png",
+    "right": "slices/bezel-right.png"
+  },
+  "centerOrnament": null,
+  "dynamicFill": {
+    "clipOriginX": 24,
+    "clipOriginY": 11,
+    "clipWidthAt100": 337,
+    "clipHeight": 17,
+    "formula": "round(interior.width * clamp(value, 0, 1))"
+  }
+}

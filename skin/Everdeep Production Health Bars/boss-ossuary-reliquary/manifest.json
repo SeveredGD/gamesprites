@@ -1,0 +1,52 @@
+{
+  "id": "boss-ossuary-reliquary",
+  "role": "boss",
+  "name": "Ossuary Reliquary",
+  "version": 1,
+  "size": {
+    "width": 896,
+    "height": 128
+  },
+  "interior": {
+    "x": 154,
+    "y": 49,
+    "width": 590,
+    "height": 41
+  },
+  "nineSlice": {
+    "left": 154,
+    "right": 152,
+    "top": 49,
+    "bottom": 38
+  },
+  "layers": {
+    "bezel": "layers/bezel.png",
+    "stretchableBezel": "layers/bezel-stretchable.png",
+    "track": "layers/track.png",
+    "fill": "layers/fill.png",
+    "trackTile": "layers/track-tile.png",
+    "fillTile": "layers/fill-tile.png",
+    "fillLeadingEdge": "layers/fill-leading-edge.png",
+    "emptyComposite": "layers/empty-composite.png",
+    "fullComposite": "layers/full-composite.png"
+  },
+  "slices": {
+    "left": "slices/bezel-left.png",
+    "center": "slices/bezel-center-1px.png",
+    "right": "slices/bezel-right.png"
+  },
+  "centerOrnament": {
+    "file": "slices/center-ornament.png",
+    "width": 71,
+    "height": 88,
+    "anchor": "top-center",
+    "sourceOffsetY": 18
+  },
+  "dynamicFill": {
+    "clipOriginX": 154,
+    "clipOriginY": 49,
+    "clipWidthAt100": 590,
+    "clipHeight": 41,
+    "formula": "round(interior.width * clamp(value, 0, 1))"
+  }
+}

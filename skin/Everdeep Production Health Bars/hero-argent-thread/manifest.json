@@ -1,0 +1,52 @@
+{
+  "id": "hero-argent-thread",
+  "role": "hero",
+  "name": "Argent Thread",
+  "version": 1,
+  "size": {
+    "width": 512,
+    "height": 64
+  },
+  "interior": {
+    "x": 26,
+    "y": 28,
+    "width": 463,
+    "height": 14
+  },
+  "nineSlice": {
+    "left": 26,
+    "right": 23,
+    "top": 28,
+    "bottom": 22
+  },
+  "layers": {
+    "bezel": "layers/bezel.png",
+    "stretchableBezel": "layers/bezel-stretchable.png",
+    "track": "layers/track.png",
+    "fill": "layers/fill.png",
+    "trackTile": "layers/track-tile.png",
+    "fillTile": "layers/fill-tile.png",
+    "fillLeadingEdge": "layers/fill-leading-edge.png",
+    "emptyComposite": "layers/empty-composite.png",
+    "fullComposite": "layers/full-composite.png"
+  },
+  "slices": {
+    "left": "slices/bezel-left.png",
+    "center": "slices/bezel-center-1px.png",
+    "right": "slices/bezel-right.png"
+  },
+  "centerOrnament": {
+    "file": "slices/center-ornament.png",
+    "width": 31,
+    "height": 21,
+    "anchor": "top-center",
+    "sourceOffsetY": 10
+  },
+  "dynamicFill": {
+    "clipOriginX": 26,
+    "clipOriginY": 28,
+    "clipWidthAt100": 463,
+    "clipHeight": 14,
+    "formula": "round(interior.width * clamp(value, 0, 1))"
+  }
+}

@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>Everdeep health bar test</title><style>
+body{margin:0;padding:28px;background:#080a0d;color:#d8cbaa;font:16px Georgia,serif}main{max-width:1000px;margin:auto}section{padding:18px;margin:16px 0;border:1px solid #554f46;background:#0e0d0c;overflow:auto}h2{font-size:18px}.bar{position:relative;width:var(--w);height:var(--h)}.bar>img{position:absolute;inset:0}.clip{position:absolute;left:var(--ix);top:var(--iy);height:var(--ih);overflow:hidden}.clip img{position:absolute;left:calc(-1 * var(--ix));top:calc(-1 * var(--iy));max-width:none}.bar img{image-rendering:pixelated}label{display:flex;gap:12px;margin-top:12px}input{width:420px}</style><main><h1>Everdeep Dynamic Health Bars</h1><section><h2>Hero — Argent Thread</h2>
+<div class="bar" style="--w:512px;--h:64px;--ix:26px;--iy:28px;--iw:463px;--ih:14px">
+<img src="hero-argent-thread/layers/track.png"><div class="clip"><img src="hero-argent-thread/layers/fill.png"></div><img src="hero-argent-thread/layers/bezel.png"></div>
+<label><input type="range" min="0" max="100" value="65"><output>65%</output></label></section>
+<section><h2>Enemy — Fang Clasp</h2>
+<div class="bar" style="--w:384px;--h:40px;--ix:24px;--iy:11px;--iw:337px;--ih:17px">
+<img src="enemy-fang-clasp/layers/track.png"><div class="clip"><img src="enemy-fang-clasp/layers/fill.png"></div><img src="enemy-fang-clasp/layers/bezel.png"></div>
+<label><input type="range" min="0" max="100" value="65"><output>65%</output></label></section>
+<section><h2>Boss — Ossuary Reliquary</h2>
+<div class="bar" style="--w:896px;--h:128px;--ix:154px;--iy:49px;--iw:590px;--ih:41px">
+<img src="boss-ossuary-reliquary/layers/track.png"><div class="clip"><img src="boss-ossuary-reliquary/layers/fill.png"></div><img src="boss-ossuary-reliquary/layers/bezel.png"></div>
+<label><input type="range" min="0" max="100" value="65"><output>65%</output></label></section></main><script>document.querySelectorAll('section').forEach(s=>{const i=s.querySelector('input'),o=s.querySelector('output'),c=s.querySelector('.clip'),b=s.querySelector('.bar');function u(){c.style.width=Math.round(parseFloat(getComputedStyle(b).getPropertyValue('--iw'))*i.value/100)+'px';o.value=i.value+'%'}i.oninput=u;u()})</script>

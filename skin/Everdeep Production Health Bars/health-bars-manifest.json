@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "bars": [
+    {
+      "id": "hero-argent-thread",
+      "role": "hero",
+      "name": "Argent Thread",
+      "version": 1,
+      "size": {
+        "width": 512,
+        "height": 64
+      },
+      "interior": {
+        "x": 26,
+        "y": 28,
+        "width": 463,
+        "height": 14
+      },
+      "nineSlice": {
+        "left": 26,
+        "right": 23,
+        "top": 28,
+        "bottom": 22
+      },
+      "layers": {
+        "bezel": "layers/bezel.png",
+        "stretchableBezel": "layers/bezel-stretchable.png",
+        "track": "layers/track.png",
+        "fill": "layers/fill.png",
+        "trackTile": "layers/track-tile.png",
+        "fillTile": "layers/fill-tile.png",
+        "fillLeadingEdge": "layers/fill-leading-edge.png",
+        "emptyComposite": "layers/empty-composite.png",
+        "fullComposite": "layers/full-composite.png"
+      },
+      "slices": {
+        "left": "slices/bezel-left.png",
+        "center": "slices/bezel-center-1px.png",
+        "right": "slices/bezel-right.png"
+      },
+      "centerOrnament": {
+        "file": "slices/center-ornament.png",
+        "width": 31,
+        "height": 21,
+        "anchor": "top-center",
+        "sourceOffsetY": 10
+      },
+      "dynamicFill": {
+        "clipOriginX": 26,
+        "clipOriginY": 28,
+        "clipWidthAt100": 463,
+        "clipHeight": 14,
+        "formula": "round(interior.width * clamp(value, 0, 1))"
+      }
+    },
+    {
+      "id": "enemy-fang-clasp",
+      "role": "enemy",
+      "name": "Fang Clasp",
+      "version": 1,
+      "size": {
+        "width": 384,
+        "height": 40
+      },
+      "interior": {
+        "x": 24,
+        "y": 11,
+        "width": 337,
+        "height": 17
+      },
+      "nineSlice": {
+        "left": 24,
+        "right": 23,
+        "top": 11,
+        "bottom": 12
+      },
+      "layers": {
+        "bezel": "layers/bezel.png",
+        "stretchableBezel": "layers/bezel-stretchable.png",
+        "track": "layers/track.png",
+        "fill": "layers/fill.png",
+        "trackTile": "layers/track-tile.png",
+        "fillTile": "layers/fill-tile.png",
+        "fillLeadingEdge": "layers/fill-leading-edge.png",
+        "emptyComposite": "layers/empty-composite.png",
+        "fullComposite": "layers/full-composite.png"
+      },
+      "slices": {
+        "left": "slices/bezel-left.png",
+        "center": "slices/bezel-center-1px.png",
+        "right": "slices/bezel-right.png"
+      },
+      "centerOrnament": null,
+      "dynamicFill": {
+        "clipOriginX": 24,
+        "clipOriginY": 11,
+        "clipWidthAt100": 337,
+        "clipHeight": 17,
+        "formula": "round(interior.width * clamp(value, 0, 1))"
+      }
+    },
+    {
+      "id": "boss-ossuary-reliquary",
+      "role": "boss",
+      "name": "Ossuary Reliquary",
+      "version": 1,
+      "size": {
+        "width": 896,
+        "height": 128
+      },
+      "interior": {
+        "x": 154,
+        "y": 49,
+        "width": 590,
+        "height": 41
+      },
+      "nineSlice": {
+        "left": 154,
+        "right": 152,
+        "top": 49,
+        "bottom": 38
+      },
+      "layers": {
+        "bezel": "layers/bezel.png",
+        "stretchableBezel": "layers/bezel-stretchable.png",
+        "track": "layers/track.png",
+        "fill": "layers/fill.png",
+        "trackTile": "layers/track-tile.png",
+        "fillTile": "layers/fill-tile.png",
+        "fillLeadingEdge": "layers/fill-leading-edge.png",
+        "emptyComposite": "layers/empty-composite.png",
+        "fullComposite": "layers/full-composite.png"
+      },
+      "slices": {
+        "left": "slices/bezel-left.png",
+        "center": "slices/bezel-center-1px.png",
+        "right": "slices/bezel-right.png"
+      },
+      "centerOrnament": {
+        "file": "slices/center-ornament.png",
+        "width": 71,
+        "height": 88,
+        "anchor": "top-center",
+        "sourceOffsetY": 18
+      },
+      "dynamicFill": {
+        "clipOriginX": 154,
+        "clipOriginY": 49,
+        "clipWidthAt100": 590,
+        "clipHeight": 41,
+        "formula": "round(interior.width * clamp(value, 0, 1))"
+      }
+    }
+  ]
+}
