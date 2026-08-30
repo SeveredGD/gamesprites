@@ -1,0 +1,41 @@
+<!doctype html><meta charset="utf-8"><title>Everdeep dynamic progress bars</title>
+<style>
+body{margin:0;background:#090a0d;color:#d6c9aa;font:16px Georgia,serif;padding:32px}main{max-width:700px;margin:auto}.card{background:#0e0d0c;border:1px solid #605a50;padding:20px;margin:16px 0}h2{font-size:18px;margin:0 0 14px}.bar{position:relative;width:var(--w);height:var(--h);image-rendering:pixelated}.bar>img{position:absolute;inset:0;width:100%;height:100%}.fill-clip{position:absolute;left:var(--ix);top:var(--iy);height:var(--ih);overflow:hidden}.fill{position:absolute;left:calc(-1 * var(--ix));top:calc(-1 * var(--iy));width:var(--w);height:var(--h);max-width:none}.bezel{pointer-events:none}label{display:flex;gap:12px;align-items:center;margin-top:14px}input{width:384px}output{min-width:48px}
+</style><main><h1>Everdeep Dynamic Bar Test</h1><section class="card" data-value="35">
+  <h2>Compact Ossuary Hairline</h2>
+  <div class="bar" style="--w:384px;--h:12px;--ix:9px;--iy:3px;--iw:366px;--ih:6px">
+    <img class="track" src="compact-ossuary-hairline/layers/track.png" alt="">
+    <div class="fill-clip"><img class="fill" src="compact-ossuary-hairline/layers/fill.png" alt=""></div>
+    <img class="bezel" src="compact-ossuary-hairline/layers/bezel.png" alt="">
+  </div>
+  <label><input type="range" min="0" max="100" value="35"> <output>35%</output></label>
+</section>
+<section class="card" data-value="50">
+  <h2>Compact Frost Needle</h2>
+  <div class="bar" style="--w:384px;--h:12px;--ix:14px;--iy:3px;--iw:356px;--ih:6px">
+    <img class="track" src="compact-frost-needle/layers/track.png" alt="">
+    <div class="fill-clip"><img class="fill" src="compact-frost-needle/layers/fill.png" alt=""></div>
+    <img class="bezel" src="compact-frost-needle/layers/bezel.png" alt="">
+  </div>
+  <label><input type="range" min="0" max="100" value="50"> <output>50%</output></label>
+</section>
+<section class="card" data-value="65">
+  <h2>Ossuary Rivet</h2>
+  <div class="bar" style="--w:384px;--h:24px;--ix:30px;--iy:5px;--iw:324px;--ih:14px">
+    <img class="track" src="ossuary-rivet/layers/track.png" alt="">
+    <div class="fill-clip"><img class="fill" src="ossuary-rivet/layers/fill.png" alt=""></div>
+    <img class="bezel" src="ossuary-rivet/layers/bezel.png" alt="">
+  </div>
+  <label><input type="range" min="0" max="100" value="65"> <output>65%</output></label>
+</section>
+<section class="card" data-value="80">
+  <h2>Frost Reliquary</h2>
+  <div class="bar" style="--w:384px;--h:24px;--ix:27px;--iy:5px;--iw:331px;--ih:14px">
+    <img class="track" src="frost-reliquary/layers/track.png" alt="">
+    <div class="fill-clip"><img class="fill" src="frost-reliquary/layers/fill.png" alt=""></div>
+    <img class="bezel" src="frost-reliquary/layers/bezel.png" alt="">
+  </div>
+  <label><input type="range" min="0" max="100" value="80"> <output>80%</output></label>
+</section></main><script>
+document.querySelectorAll('.card').forEach(card=>{const input=card.querySelector('input'),clip=card.querySelector('.fill-clip'),out=card.querySelector('output'),bar=card.querySelector('.bar');function update(){const iw=parseFloat(getComputedStyle(bar).getPropertyValue('--iw'));clip.style.width=Math.round(iw*input.value/100)+'px';out.value=input.value+'%'}input.addEventListener('input',update);update()})
+</script>

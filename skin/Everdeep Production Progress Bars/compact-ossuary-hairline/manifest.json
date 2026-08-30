@@ -1,0 +1,43 @@
+{
+  "id": "compact-ossuary-hairline",
+  "name": "Compact Ossuary Hairline",
+  "version": 1,
+  "size": {
+    "width": 384,
+    "height": 12
+  },
+  "interior": {
+    "x": 9,
+    "y": 3,
+    "width": 366,
+    "height": 6
+  },
+  "nineSlice": {
+    "left": 9,
+    "right": 9,
+    "top": 3,
+    "bottom": 3
+  },
+  "layers": {
+    "bezel": "layers/bezel.png",
+    "track": "layers/track.png",
+    "fill": "layers/fill.png",
+    "trackTile": "layers/track-tile.png",
+    "fillTile": "layers/fill-tile.png",
+    "fillLeadingEdge": "layers/fill-leading-edge.png",
+    "emptyComposite": "layers/empty-composite.png",
+    "fullComposite": "layers/full-composite.png"
+  },
+  "slices": {
+    "left": "slices/bezel-left.png",
+    "center": "slices/bezel-center-1px.png",
+    "right": "slices/bezel-right.png"
+  },
+  "dynamicFill": {
+    "clipOriginX": 9,
+    "clipOriginY": 3,
+    "clipWidthAt100": 366,
+    "clipHeight": 6,
+    "formula": "round(interior.width * clamp(value, 0, 1))"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ossuary-rivet",
+  "name": "Ossuary Rivet",
+  "version": 1,
+  "size": {
+    "width": 384,
+    "height": 24
+  },
+  "interior": {
+    "x": 30,
+    "y": 5,
+    "width": 324,
+    "height": 14
+  },
+  "nineSlice": {
+    "left": 30,
+    "right": 30,
+    "top": 5,
+    "bottom": 5
+  },
+  "layers": {
+    "bezel": "layers/bezel.png",
+    "track": "layers/track.png",
+    "fill": "layers/fill.png",
+    "trackTile": "layers/track-tile.png",
+    "fillTile": "layers/fill-tile.png",
+    "fillLeadingEdge": "layers/fill-leading-edge.png",
+    "emptyComposite": "layers/empty-composite.png",
+    "fullComposite": "layers/full-composite.png"
+  },
+  "slices": {
+    "left": "slices/bezel-left.png",
+    "center": "slices/bezel-center-1px.png",
+    "right": "slices/bezel-right.png"
+  },
+  "dynamicFill": {
+    "clipOriginX": 30,
+    "clipOriginY": 5,
+    "clipWidthAt100": 324,
+    "clipHeight": 14,
+    "formula": "round(interior.width * clamp(value, 0, 1))"
+  }
+}
