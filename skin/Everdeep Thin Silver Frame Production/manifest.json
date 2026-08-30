@@ -1,0 +1,26 @@
+{
+  "format": "everdeep-thin-frame-production-v1",
+  "recommendedBorderWidth": 3,
+  "minimumBorderWidth": 2,
+  "borderImageRepeat": "stretch",
+  "variants": {
+    "runic-hairline": {
+      "directory": "02-runic-hairline",
+      "master": "02-runic-hairline/master.png",
+      "sourceSize": [2120, 670],
+      "slice": { "top": 57, "right": 67, "bottom": 55, "left": 67 }
+    },
+    "thornwire": {
+      "directory": "03-thornwire",
+      "master": "03-thornwire/master.png",
+      "sourceSize": [2158, 666],
+      "slice": { "top": 61, "right": 61, "bottom": 63, "left": 59 }
+    },
+    "moonsteel-stitch": {
+      "directory": "05-moonsteel-stitch",
+      "master": "05-moonsteel-stitch/master.png",
+      "sourceSize": [2112, 646],
+      "slice": { "top": 61, "right": 61, "bottom": 62, "left": 63 }
+    }
+  }
+}

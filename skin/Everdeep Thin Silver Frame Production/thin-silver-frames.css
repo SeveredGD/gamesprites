@@ -1,0 +1,26 @@
+.ed-thin-frame {
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: transparent;
+  border-width: var(--ed-thin-frame-width, 3px);
+  border-image-repeat: stretch;
+  border-radius: 0;
+}
+
+.ed-thin-frame--2px { --ed-thin-frame-width: 2px; }
+.ed-thin-frame--3px { --ed-thin-frame-width: 3px; }
+
+.ed-thin-frame--runic {
+  border-image-source: url("02-runic-hairline/master.png");
+  border-image-slice: 57 67 55 67;
+}
+
+.ed-thin-frame--thornwire {
+  border-image-source: url("03-thornwire/master.png");
+  border-image-slice: 61 61 63 59;
+}
+
+.ed-thin-frame--moonsteel {
+  border-image-source: url("05-moonsteel-stitch/master.png");
+  border-image-slice: 61 61 62 63;
+}
