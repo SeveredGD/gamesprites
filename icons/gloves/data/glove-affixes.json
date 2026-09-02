@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "slot": "gloves",
+  "tierConvention": "T1 is the lowest affix tier; T3 is the highest",
+  "tierOdds": {
+    "normal": { "t1": 0.75, "t2": 0.23, "t3": 0.02 },
+    "nightmare": { "t1": 0.45, "t2": 0.48, "t3": 0.07 },
+    "hell": { "t1": 0.20, "t2": 0.60, "t3": 0.20 },
+    "desolation": { "t1": 0.10, "t2": 0.50, "t3": 0.40 },
+    "epoch": { "t1": 0.10, "t2": 0.50, "t3": 0.40 }
+  },
+  "exclusiveGroups": {
+    "onHitRecovery": ["lifeOnHitBps", "shieldOnHitHalfPct"]
+  },
+  "affixes": {
+    "mainDmg": {
+      "label": "Damage",
+      "unit": "flat",
+      "locationScaled": true,
+      "tiers": { "t1": [2, 5], "t2": [6, 10], "t3": [11, 16] }
+    },
+    "mainSpd": {
+      "label": "Attack Speed",
+      "unit": "speed points",
+      "locationScaled": true,
+      "tiers": { "t1": [1, 3], "t2": [4, 6], "t3": [7, 10] }
+    },
+    "hp": {
+      "label": "Maximum Health",
+      "unit": "flat",
+      "locationScaled": true,
+      "tiers": { "t1": [5, 15], "t2": [16, 30], "t3": [31, 50] }
+    },
+    "hpRegen": {
+      "label": "Health Regeneration",
+      "unit": "flat per second",
+      "locationScaled": true,
+      "tiers": { "t1": [1, 2], "t2": [3, 4], "t3": [5, 7] }
+    },
+    "critChance": {
+      "label": "Critical Chance",
+      "unit": "percent",
+      "locationScaled": false,
+      "tiers": { "t1": [1, 2], "t2": [3, 4], "t3": [5, 6] }
+    },
+    "spellShield": {
+      "label": "Maximum Energy Shield",
+      "unit": "flat",
+      "locationScaled": true,
+      "tiers": { "t1": [2, 5], "t2": [6, 11], "t3": [12, 18] }
+    },
+    "statusEffect": {
+      "label": "Status Effectiveness",
+      "unit": "percent",
+      "locationScaled": false,
+      "tiers": { "t1": [3, 6], "t2": [7, 11], "t3": [12, 16] }
+    },
+    "ailmentDmg": {
+      "label": "Ailment Damage",
+      "unit": "percent",
+      "locationScaled": false,
+      "tiers": { "t1": [4, 8], "t2": [9, 15], "t3": [16, 24] }
+    },
+    "lifeOnHitBps": {
+      "label": "Life on Hit",
+      "unit": "basis points of maximum HP",
+      "displayDivisor": 100,
+      "locationScaled": false,
+      "exclusiveGroup": "onHitRecovery",
+      "tiers": { "t1": [15, 25], "t2": [30, 45], "t3": [50, 75] }
+    },
+    "shieldOnHitHalfPct": {
+      "label": "Energy Shield on Hit",
+      "unit": "half-percent units of maximum Energy Shield",
+      "displayMultiplier": 0.5,
+      "locationScaled": false,
+      "exclusiveGroup": "onHitRecovery",
+      "tiers": { "t1": [8, 12], "t2": [13, 19], "t3": [20, 28] }
+    },
+    "crushingBlow": {
+      "label": "Crushing Blow",
+      "unit": "proc percent",
+      "locationScaled": false,
+      "tiers": { "t1": [3, 5], "t2": [6, 8], "t3": [9, 12] }
+    },
+    "openWounds": {
+      "label": "Open Wounds",
+      "unit": "proc percent",
+      "locationScaled": false,
+      "tiers": { "t1": [6, 10], "t2": [11, 16], "t3": [17, 24] }
+    },
+    "cullingStrike": {
+      "label": "Culling Strike",
+      "unit": "enemy life threshold percent",
+      "locationScaled": false,
+      "tiers": { "t1": [3, 3], "t2": [4, 5], "t3": [6, 8] }
+    },
+    "staggerOnHit": {
+      "label": "Stagger on Hit",
+      "unit": "proc percent",
+      "locationScaled": false,
+      "tiers": { "t1": [5, 8], "t2": [9, 14], "t3": [15, 22] }
+    }
+  },
+  "relativeWeights": {
+    "ordinary": 1.0,
+    "lifeOnHitBps": 0.5,
+    "shieldOnHitHalfPct": 0.5,
+    "crushingBlow": 0.65,
+    "openWounds": 0.8,
+    "cullingStrike": 0.45,
+    "staggerOnHit": 0.8
+  },
+  "balance": {
+    "lifeOnHitMaxHpPerSecond": 0.03,
+    "shieldOnHitMaxEsPerSecond": 0.25,
+    "crushingBlowCurrentHp": { "normal": 0.08, "elite": 0.02, "boss": 0.005 },
+    "openWoundsHitFraction": 0.30,
+    "openWoundsDurationMs": 4000,
+    "openWoundsTicks": 4,
+    "cullGuardianThresholdMultiplier": 0.5,
+    "cullBossDamageMultiplier": 1.25,
+    "staggerDelayMs": { "normal": 150, "elite": 100, "boss": 60 },
+    "staggerCooldownMs": 750
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "slot": "gloves",
+  "excludedConcepts": ["The Final Courtesy"],
+  "uniques": [
+    {
+      "name": "The Barber's Red Gloves",
+      "uniqueTier": 1,
+      "icon": { "atlas": "gloves_p1", "frame": 31 },
+      "stats": { "openWounds": 12, "ailmentDmg": 10 },
+      "effectId": "glove_barber_red",
+      "effect": "Open Wounds lasts 6 seconds instead of 4. Its total damage is unchanged."
+    },
+    {
+      "name": "Pitfighter's Knuckles",
+      "uniqueTier": 1,
+      "icon": { "atlas": "gloves_p1", "frame": 30 },
+      "stats": { "crushingBlow": 6, "mainDmg": 4 },
+      "effectId": "glove_pitfighter",
+      "effect": "Crushing Blow removes 10% current Life from normal enemies instead of 8%. Boss value remains 0.5%."
+    },
+    {
+      "name": "Iron Argument",
+      "uniqueTier": 1,
+      "icon": { "atlas": "gloves_p2", "frame": 31 },
+      "stats": { "staggerOnHit": 12, "mainSpd": 3 },
+      "effectId": "glove_iron_argument",
+      "effect": "The first Stagger against each enemy delays its next attack by 350ms. Later Staggers use normal values."
+    },
+    {
+      "name": "The Last Touch",
+      "uniqueTier": 1,
+      "icon": { "atlas": "gloves_p2", "frame": 34 },
+      "stats": { "cullingStrike": 5, "critChance": 2 },
+      "effectId": "glove_last_touch",
+      "effect": "Culling an enemy restores 2% maximum Life, at most once per second."
+    },
+    {
+      "name": "Surgeon's Ledger",
+      "uniqueTier": 2,
+      "icon": { "atlas": "gloves_p2", "frame": 27 },
+      "stats": { "openWounds": 17, "lifeOnHitBps": 40 },
+      "effectId": "glove_surgeon_ledger",
+      "effect": "Life on Hit is doubled against wounded enemies and halved against unwounded enemies."
+    },
+    {
+      "name": "Wardweaver's Hands",
+      "uniqueTier": 2,
+      "icon": { "atlas": "gloves_p1", "frame": 35 },
+      "stats": { "shieldOnHitHalfPct": 18, "spellShield": 15 },
+      "effectId": "glove_wardweaver",
+      "effect": "Energy Shield recovery attempted at full shield is stored. The next direct hit consumes it as magic damage, capped at 25% of maximum Energy Shield."
+    },
+    {
+      "name": "The Hammer's Memory",
+      "uniqueTier": 2,
+      "icon": { "atlas": "gloves_p1", "frame": 32 },
+      "stats": { "crushingBlow": 9, "staggerOnHit": 17 },
+      "effectId": "glove_hammer_memory",
+      "effect": "Crushing Blow guarantees Stagger with a 1-second target cooldown. Attack rate is reduced by 8%."
+    },
+    {
+      "name": "Mercy's End",
+      "uniqueTier": 2,
+      "icon": { "atlas": "gloves_p1", "frame": 34 },
+      "stats": { "cullingStrike": 6, "openWounds": 16 },
+      "effectId": "glove_mercys_end",
+      "effect": "Culling threshold is 2 points higher against wounded enemies. Low-Life bosses take 35% increased direct-hit damage instead of 25%."
+    },
+    {
+      "name": "The Twin Reservoir",
+      "uniqueTier": 2,
+      "icon": { "atlas": "gloves_p2", "frame": 32 },
+      "stats": { "lifeOnHitBps": 35, "shieldOnHitHalfPct": 14 },
+      "effectId": "glove_twin_reservoir",
+      "bypassExclusiveGroups": ["onHitRecovery"],
+      "effect": "May carry both recovery affixes. Both recovery-per-second caps are reduced by 25%."
+    },
+    {
+      "name": "Hands of the Red Saint",
+      "uniqueTier": 3,
+      "icon": { "atlas": "gloves_p2", "frame": 33 },
+      "stats": { "lifeOnHitBps": 65, "openWounds": 23 },
+      "effectId": "glove_red_saint",
+      "effect": "Open Wounds can stack 3 times, each dealing 20% of its triggering hit over 4 seconds. Maximum Life is reduced by 15%."
+    },
+    {
+      "name": "Gauntlets of the Falling Gate",
+      "uniqueTier": 3,
+      "icon": { "atlas": "gloves_p1", "frame": 33 },
+      "stats": { "crushingBlow": 11, "staggerOnHit": 21 },
+      "effectId": "glove_falling_gate",
+      "effect": "Boss Crushing Blow removes 0.75% current Life. Crushing Blow guarantees Stagger. Attack rate is reduced by 12%."
+    },
+    {
+      "name": "Empty Hands of Ordran",
+      "uniqueTier": 3,
+      "icon": { "atlas": "gloves_p2", "frame": 30 },
+      "stats": { "lifeOnHitBps": 50, "shieldOnHitHalfPct": 20 },
+      "effectId": "glove_empty_hands_ordran",
+      "bypassExclusiveGroups": ["onHitRecovery"],
+      "effect": "Life recovery at full Life restores Energy Shield at 50% effectiveness. Shield recovery at full shield restores Life at 25% effectiveness. Health Regeneration is reduced by 20%."
+    },
+    {
+      "name": "Grasp of the Unmoved",
+      "uniqueTier": 3,
+      "icon": { "atlas": "gloves_p2", "frame": 35 },
+      "stats": { "staggerOnHit": 21, "shieldOnHitHalfPct": 24 },
+      "effectId": "glove_grasp_unmoved",
+      "forbiddenStats": ["crushingBlow"],
+      "effect": "Every fifth eligible hit always Staggers. Staggering grants temporary Energy Shield equal to 5% of maximum shield, capped at 20%."
+    }
+  ]
+}
