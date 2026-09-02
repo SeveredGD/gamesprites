@@ -1,0 +1,37 @@
+{
+  "effect": "nullstrike",
+  "version": 3,
+  "element": "cold",
+  "visualScaleChanges": {
+    "projectile": 0.85,
+    "impact": 1.2,
+    "note": "Artwork was scaled around the fixed 64,64 frame anchor. Frame geometry and Phaser placement remain unchanged."
+  },
+  "projectile": {
+    "image": "null-strike-projectile-128x128-8f-v3.png",
+    "frames": 8,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameRate": 16,
+    "origin": [0.5, 0.5],
+    "travelDurationMs": 380,
+    "travelEase": "Quad.easeIn",
+    "travelFrames": [1, 2, 3, 4, 5],
+    "contactFrames": [6, 7]
+  },
+  "impact": {
+    "image": "null-strike-impact-128x128-8f-v3.png",
+    "frames": 8,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameRate": 14,
+    "origin": [0.5, 0.5],
+    "loop": false,
+    "depth": 13
+  },
+  "integration": {
+    "replace": ["_nullStrikeOrb", "_nullStrikeImpact"],
+    "keepProcedural": ["projectile travel", "target tracking", "critical camera shake", "damage timing"],
+    "removeProcedural": ["growing white circles", "crosshair lines", "ring tweens"]
+  }
+}
