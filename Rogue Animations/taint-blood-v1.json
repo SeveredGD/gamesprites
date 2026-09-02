@@ -1,0 +1,35 @@
+{
+  "effect": "taintblood",
+  "version": 1,
+  "damageIdentity": ["bleed", "poison"],
+  "projectile": {
+    "image": "taint-blood-projectile-128x128-8f.png",
+    "frames": 8,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameRate": 16,
+    "origin": [0.5, 0.5],
+    "travelDurationMs": 380,
+    "travelEase": "Quad.easeIn",
+    "travelFrames": [1, 2, 3, 4, 5],
+    "contactFrames": [6, 7],
+    "note": "Phaser moves the sprite from the frame-9 hero release point to the target."
+  },
+  "impact": {
+    "image": "taint-blood-impact-128x128-8f.png",
+    "frames": 8,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameRate": 14,
+    "origin": [0.5, 0.5],
+    "loop": false,
+    "depth": 13,
+    "note": "Spawn at projectile destination and destroy on animation completion."
+  },
+  "integration": {
+    "replace": ["_taintBloodOrb", "_taintBloodImpact"],
+    "keepProcedural": ["projectile travel", "target tracking", "damage timing", "critical camera shake"],
+    "removeProcedural": ["red circles", "ring tweens"],
+    "heroReleaseFrame": 9
+  }
+}
