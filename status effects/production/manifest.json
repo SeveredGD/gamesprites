@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "statusEffects": {
+    "burn": {
+      "file": "status-effects/status-burn-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "bottom",
+      "placement": "feet",
+      "stack": {
+        "baseScale": 0.98,
+        "scaleDecay": 0.92,
+        "minScale": 0.78,
+        "stackable": true,
+        "layout": "stack"
+      },
+      "displayPriority": 0
+    },
+    "frozen": {
+      "file": "status-effects/status-frozen-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-bottom",
+      "placement": "feet",
+      "stack": {
+        "baseScale": 0.98,
+        "scaleDecay": 0.92,
+        "minScale": 0.78,
+        "stackable": true,
+        "layout": "stack"
+      },
+      "displayPriority": 1
+    },
+    "chill": {
+      "file": "status-effects/status-chill-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": 0,
+      "holdLastFrame": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 0
+    },
+    "poison": {
+      "file": "status-effects/status-poison-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-bottom",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 1
+    },
+    "bleed": {
+      "file": "status-effects/status-bleed-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 1
+    },
+    "shock": {
+      "file": "status-effects/status-shock-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 2
+    },
+    "stagger": {
+      "file": "status-effects/status-stagger-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 2
+    },
+    "arcane-vulnerability": {
+      "file": "status-effects/status-arcane-vulnerability-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 4
+    },
+    "hex": {
+      "file": "status-effects/status-hex-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 5
+    },
+    "corrosion": {
+      "file": "status-effects/status-corrosion-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 4
+    },
+    "neurotoxin": {
+      "file": "status-effects/status-neurotoxin-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 6
+    },
+    "sunder": {
+      "file": "status-effects/status-sunder-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-bottom",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 5
+    },
+    "open-wounds": {
+      "file": "status-effects/status-open-wounds-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "two-phase-stable-center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 6
+    },
+    "marked": {
+      "file": "status-effects/status-marked-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 0
+    },
+    "plague": {
+      "file": "status-effects/status-plague-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "body",
+      "stack": {
+        "baseScale": 1.07,
+        "scaleDecay": 0.9,
+        "minScale": 0.65,
+        "stackable": true,
+        "layout": "tight-random"
+      },
+      "displayPriority": 3
+    },
+    "artifice-trapped": {
+      "file": "status-effects/status-artifice-trapped-4f.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameCount": 4,
+      "frameRate": 5,
+      "durationMs": 800,
+      "repeat": -1,
+      "holdLastFrame": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "registration": "center",
+      "placement": "overhead",
+      "stack": {
+        "baseScale": 0.75,
+        "scaleDecay": 0.82,
+        "minScale": 0.36,
+        "stackable": true,
+        "layout": "arc"
+      },
+      "displayPriority": 3
+    }
+  },
+  "projectiles": {
+    "fireball": {
+      "file": "projectiles/projectile-fireball.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "frost-bolt": {
+      "file": "projectiles/projectile-frost-bolt.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "lightning-orb": {
+      "file": "projectiles/projectile-lightning-orb.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "arcane-missile": {
+      "file": "projectiles/projectile-arcane-missile.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "poison-glob": {
+      "file": "projectiles/projectile-poison-glob.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "shadow-bolt": {
+      "file": "projectiles/projectile-shadow-bolt.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "blood-lance": {
+      "file": "projectiles/projectile-blood-lance.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "holy-shard": {
+      "file": "projectiles/projectile-holy-shard.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "arrow": {
+      "file": "projectiles/projectile-arrow.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "throwing-knife": {
+      "file": "projectiles/projectile-throwing-knife.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "barbed-javelin": {
+      "file": "projectiles/projectile-barbed-javelin.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "earth-shard": {
+      "file": "projectiles/projectile-earth-shard.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "explosive-flask": {
+      "file": "projectiles/projectile-explosive-flask.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "frost-vial": {
+      "file": "projectiles/projectile-frost-vial.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "trap-disc": {
+      "file": "projectiles/projectile-trap-disc.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    },
+    "hooked-chain-head": {
+      "file": "projectiles/projectile-hooked-chain-head.png",
+      "width": 128,
+      "height": 128,
+      "origin": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "faces": "right"
+    }
+  }
+}
