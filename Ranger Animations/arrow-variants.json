@@ -1,0 +1,21 @@
+{
+  "sheet": "effect-whole.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": [
+    { "index": 0, "id": "huntsman-broadhead", "label": "Huntsman's Broadhead", "use": "default physical" },
+    { "index": 1, "id": "armor-piercing-bodkin", "label": "Armor-Piercing Bodkin", "use": "armor penetration" },
+    { "index": 2, "id": "barbed-bleed-arrow", "label": "Barbed Bleed Arrow", "use": "bleed / open wounds" },
+    { "index": 3, "id": "venom-arrow", "label": "Venom Arrow", "use": "poison / neurotoxin" },
+    { "index": 4, "id": "frost-arrow", "label": "Frost Arrow", "use": "frozen / chill" },
+    { "index": 5, "id": "storm-arrow", "label": "Storm Arrow", "use": "shock / lightning" },
+    { "index": 6, "id": "ember-arrow", "label": "Ember Arrow", "use": "burn / fire" },
+    { "index": 7, "id": "umbral-arrow", "label": "Umbral Arrow", "use": "shadow / hex" }
+  ],
+  "runtime": {
+    "facing": "right",
+    "origin": [0.5, 0.5],
+    "recommendedDisplayLength": [42, 56],
+    "phaserOwns": ["launch position", "travel arc", "rotation", "speed", "critical scale", "trail", "impact", "damage timing"]
+  }
+}

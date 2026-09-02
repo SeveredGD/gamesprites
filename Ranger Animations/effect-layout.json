@@ -1,0 +1,63 @@
+{
+  "frames": 8,
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frameRate": 1,
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sourceColumnBounds": [
+    0,
+    404,
+    757,
+    1142,
+    1536
+  ],
+  "sourceRowBounds": [
+    0,
+    518,
+    1024
+  ],
+  "workSize": 512,
+  "anchor": [
+    256,
+    256
+  ],
+  "registrationOffsets": [
+    [
+      54,
+      -87
+    ],
+    [
+      80,
+      -87
+    ],
+    [
+      64,
+      -87
+    ],
+    [
+      59,
+      -87
+    ],
+    [
+      54,
+      72
+    ],
+    [
+      80,
+      72
+    ],
+    [
+      64,
+      72
+    ],
+    [
+      59,
+      72
+    ]
+  ],
+  "depthSplit": false,
+  "overlapSourcePixels": 0
+}
