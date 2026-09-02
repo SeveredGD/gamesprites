@@ -1,0 +1,66 @@
+{
+  "frames": 16,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "frameRate": 20,
+  "sourceSize": [
+    1774,
+    887
+  ],
+  "sourceColumnBounds": [
+    0,
+    432,
+    871,
+    1312,
+    1774
+  ],
+  "sourceRowBounds": [
+    0,
+    470,
+    887
+  ],
+  "workSize": 512,
+  "anchor": [
+    256,
+    256
+  ],
+  "registrationOffsets": [
+    [
+      40,
+      -15
+    ],
+    [
+      37,
+      -15
+    ],
+    [
+      36,
+      -15
+    ],
+    [
+      25,
+      -15
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      37,
+      50
+    ],
+    [
+      36,
+      50
+    ],
+    [
+      25,
+      50
+    ]
+  ],
+  "depthSplit": false,
+  "overlapSourcePixels": 0,
+  "durationMs": 800,
+  "derivedFrom": "spellbreaker-null-seal-128x128-8f.png",
+  "interpolation": "premultiplied-alpha midpoint frames; final residue fade"
+}
