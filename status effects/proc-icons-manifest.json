@@ -1,0 +1,124 @@
+{
+  "icons": [
+    {
+      "id": "ranger-forage-charge-proc",
+      "source": "ranger-forage-charge-proc-master.png",
+      "transparentMaster": "transparent-masters/ranger-forage-charge-proc.png",
+      "runtime128": "production-128/ranger-forage-charge-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "ranger-recover-arrow-proc",
+      "source": "ranger-recover-arrow-proc-master.png",
+      "transparentMaster": "transparent-masters/ranger-recover-arrow-proc.png",
+      "runtime128": "production-128/ranger-recover-arrow-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "ranger-recover-trap-proc",
+      "source": "ranger-recover-trap-proc-master.png",
+      "transparentMaster": "transparent-masters/ranger-recover-trap-proc.png",
+      "runtime128": "production-128/ranger-recover-trap-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "ranger-scavenge-proc",
+      "source": "ranger-scavenge-proc-master.png",
+      "transparentMaster": "transparent-masters/ranger-scavenge-proc.png",
+      "runtime128": "production-128/ranger-scavenge-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "rogue-heist-enhance-proc",
+      "source": "rogue-heist-enhance-proc-master.png",
+      "transparentMaster": "transparent-masters/rogue-heist-enhance-proc.png",
+      "runtime128": "production-128/rogue-heist-enhance-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "rogue-high-roller-proc",
+      "source": "rogue-high-roller-proc-master.png",
+      "transparentMaster": "transparent-masters/rogue-high-roller-proc.png",
+      "runtime128": "production-128/rogue-high-roller-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "rogue-pilfer-proc",
+      "source": "rogue-pilfer-proc-master.png",
+      "transparentMaster": "transparent-masters/rogue-pilfer-proc.png",
+      "runtime128": "production-128/rogue-pilfer-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "sorceress-energy-shield-ward-proc",
+      "source": "sorceress-energy-shield-ward-proc-master.png",
+      "transparentMaster": "transparent-masters/sorceress-energy-shield-ward-proc.png",
+      "runtime128": "production-128/sorceress-energy-shield-ward-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "sorceress-inner-fortune-proc",
+      "source": "sorceress-inner-fortune-proc-master.png",
+      "transparentMaster": "transparent-masters/sorceress-inner-fortune-proc.png",
+      "runtime128": "production-128/sorceress-inner-fortune-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "sorceress-warmth-second-wind-proc",
+      "source": "sorceress-warmth-second-wind-proc-master.png",
+      "transparentMaster": "transparent-masters/sorceress-warmth-second-wind-proc.png",
+      "runtime128": "production-128/sorceress-warmth-second-wind-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "warrior-item-find-proc",
+      "source": "warrior-item-find-proc-master.png",
+      "transparentMaster": "transparent-masters/warrior-item-find-proc.png",
+      "runtime128": "production-128/warrior-item-find-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    },
+    {
+      "id": "warrior-last-stand-proc",
+      "source": "warrior-last-stand-proc-master.png",
+      "transparentMaster": "transparent-masters/warrior-last-stand-proc.png",
+      "runtime128": "production-128/warrior-last-stand-proc.png",
+      "runtimeSize": [
+        128,
+        128
+      ]
+    }
+  ]
+}
