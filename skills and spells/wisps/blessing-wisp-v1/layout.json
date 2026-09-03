@@ -1,0 +1,102 @@
+{
+  "id": "blessing-wisp-v1",
+  "source": "blessing-wisp-flight-v1-8f-master.png",
+  "frames": 8,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "loopMs": 800,
+  "frameDurationMs": 100,
+  "direction": "right",
+  "leftTravel": "flipX",
+  "anchorType": "luminous-core",
+  "sourceSize": [
+    2001,
+    786
+  ],
+  "sourceColumnBounds": [
+    0,
+    502,
+    971,
+    1435,
+    2001
+  ],
+  "sourceRowBounds": [
+    0,
+    390,
+    786
+  ],
+  "sourceCoreAnchors": [
+    [
+      350.75,
+      256.7
+    ],
+    [
+      312.28,
+      256.65
+    ],
+    [
+      313.38,
+      256.8
+    ],
+    [
+      314.85,
+      257.06
+    ],
+    [
+      351.51,
+      205.63
+    ],
+    [
+      314.01,
+      205.95
+    ],
+    [
+      307.85,
+      205.58
+    ],
+    [
+      301.06,
+      205.42
+    ]
+  ],
+  "registrationTarget": [
+    247,
+    192
+  ],
+  "registrationOffsets": [
+    [
+      -104,
+      -65
+    ],
+    [
+      -65,
+      -65
+    ],
+    [
+      -66,
+      -65
+    ],
+    [
+      -68,
+      -65
+    ],
+    [
+      -105,
+      -14
+    ],
+    [
+      -67,
+      -14
+    ],
+    [
+      -61,
+      -14
+    ],
+    [
+      -54,
+      -13
+    ]
+  ],
+  "workSize": 311,
+  "strip": "blessing-wisp-v1/blessing-wisp-v1-strip-8x128.png"
+}

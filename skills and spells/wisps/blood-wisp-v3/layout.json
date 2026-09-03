@@ -1,0 +1,102 @@
+{
+  "id": "blood-wisp-v3",
+  "source": "blood-wisp-flight-v3-8f-master.png",
+  "frames": 8,
+  "frameWidth": 128,
+  "frameHeight": 128,
+  "loopMs": 800,
+  "frameDurationMs": 100,
+  "direction": "right",
+  "leftTravel": "flipX",
+  "anchorType": "luminous-core",
+  "sourceSize": [
+    1419,
+    1108
+  ],
+  "sourceColumnBounds": [
+    0,
+    386,
+    726,
+    1064,
+    1419
+  ],
+  "sourceRowBounds": [
+    0,
+    542,
+    1108
+  ],
+  "sourceCoreAnchors": [
+    [
+      284.45,
+      367.92
+    ],
+    [
+      233.08,
+      368.14
+    ],
+    [
+      253.64,
+      367.95
+    ],
+    [
+      243.86,
+      368.75
+    ],
+    [
+      301.96,
+      293.3
+    ],
+    [
+      264.61,
+      295.03
+    ],
+    [
+      249.8,
+      294.5
+    ],
+    [
+      221.26,
+      293.19
+    ]
+  ],
+  "registrationTarget": [
+    258,
+    214
+  ],
+  "registrationOffsets": [
+    [
+      -26,
+      -154
+    ],
+    [
+      25,
+      -154
+    ],
+    [
+      4,
+      -154
+    ],
+    [
+      14,
+      -155
+    ],
+    [
+      -44,
+      -79
+    ],
+    [
+      -7,
+      -81
+    ],
+    [
+      8,
+      -80
+    ],
+    [
+      37,
+      -79
+    ]
+  ],
+  "workSize": 310,
+  "strip": "blood-wisp-v3/blood-wisp-v3-strip-8x128.png"
+}
