@@ -1,0 +1,23 @@
+{
+  "generatedBy": "Everdeep Bloodpit background builder",
+  "sprite": "bloodpit_amphitheater",
+  "image": "bloodpit_amphitheater-animated-atlas.webp",
+  "frameWidth": 455,
+  "frameHeight": 256,
+  "sheet": {
+    "cols": 4,
+    "rows": 3,
+    "frames": 12,
+    "imageWidth": 1820,
+    "imageHeight": 768
+  },
+  "defaultAnimation": {
+    "start": 0,
+    "end": 11,
+    "fps": 9.09,
+    "speed": 24.24,
+    "loop": true
+  },
+  "durationSeconds": 1.32,
+  "note": "Seamless fixed-camera Bloodpit loop. Only blood rain, brazier flame, smoke, embers and glow animate. speed compensates for the production loader's 0.375 multiplier."
+}
