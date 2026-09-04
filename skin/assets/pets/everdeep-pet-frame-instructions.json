@@ -1,0 +1,6178 @@
+{
+  "schema": "everdeep-asset-frame-review-v2",
+  "generatedAt": "2026-09-04T15:53:16.139Z",
+  "scope": "pets-only",
+  "indexing": {
+    "frameOrder": "Zero-based source frame indexes in desired playback order.",
+    "excludedFrameIndexes": "Zero-based source indexes for code and sprite APIs.",
+    "excludedFrameNumbers": "One-based source frame numbers for human-readable production notes."
+  },
+  "instructions": {
+    "use": "Approved for production unless an individual frame is excluded.",
+    "dont-use": "Do not ship this asset or use it as a reference/substitute.",
+    "undecided": "Not reviewed yet.",
+    "frameOrder": "Repack frames in this exact source-index order before applying exclusions.",
+    "excludedFrames": "Never play, export, or copy source frames listed in excludedFrameIndexes.",
+    "notes": "Asset notes apply to the full strip. Frame notes remain attached to their source frame after reordering.",
+    "pixelSettings": "Suggested non-destructive pixel reduction and grounding recipe for this asset."
+  },
+  "summary": {
+    "total": 67,
+    "use": 55,
+    "dont-use": 11,
+    "undecided": 1,
+    "excludedFrames": 0
+  },
+  "assets": [
+    {
+      "id": "pet:assets/pets/ash-hound.png",
+      "name": "ash hound",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/ash-hound.png",
+      "decision": "use",
+      "notes": "Name: Orion\nAcquisition: given to you after 700 deaths\nEffect: occasionally barks and staggers enemy\nFlavor: \"He has been waiting for you to get back up.\"\nMechanics notes: We need to make sure deaths are recording on offline idling.",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/ashwing-vulture.png",
+      "name": "ashwing vulture",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/ashwing-vulture.png",
+      "decision": "use",
+      "notes": "Name: Morrow\nAcquisition: bought from Walsh the traveling merchant for 500k\nEffect: randomly heals you to full every once in a while\nFlavor: \"Patient, but not for the reason you hoped.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/barrow-lynx.png",
+      "name": "barrow lynx",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/barrow-lynx.png",
+      "decision": "dont-use",
+      "notes": "Name: Marlowe\nAcquisition: Unassigned; currently marked don't-use.\nEffect: Cosmetic only.\nFlavor: \"The barrow was locked from the inside.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/bear.png",
+      "name": "bear",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/bear.png",
+      "decision": "dont-use",
+      "notes": "Name: Bramble\nAcquisition: Rare reward from Act 1 boss hunts.\nEffect: Occasionally growls when a boss appears; cosmetic only.\nFlavor: \"He has never once considered being smaller.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/boar.png",
+      "name": "boar",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/boar.png",
+      "decision": "dont-use",
+      "notes": "Name: Turnip\nAcquisition: Awarded after completing 10,000 farming levels.\nEffect: Occasionally digs up a small pile of gold.\nFlavor: \"He found it. You may submit an appeal.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/bog-possum.png",
+      "name": "bog possum",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/bog-possum.png",
+      "decision": "use",
+      "notes": "Name: Binjamin\nAcquisition: Given for getting level 75 scrapper mastery\nEffect: occasionally finds a random item for you\nFlavor: \"Don't touch my garbage\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/boneplate-boar.png",
+      "name": "boneplate boar",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/boneplate-boar.png",
+      "decision": "use",
+      "notes": "Name: Gristle\nAcquisition: Rare Act 3 Desolation drop.\nEffect: Occasionally staggers a normal enemy for a short duration.\nFlavor: \"Half boar, half barricade, entirely in the way.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 2,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/chainback-hyena.png",
+      "name": "chainback hyena",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/chainback-hyena.png",
+      "decision": "use",
+      "notes": "Name: Rattle\nAcquisition: 0.002% chance to find on a bounty hunt\nEffect: Gives 10% defense.\nFlavor: \"He wears the chain for style.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 1,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/cinder-bat.png",
+      "name": "cinder bat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/cinder-bat.png",
+      "decision": "use",
+      "notes": "Name: Kindle\nAcquisition: Rarely found after defeating burning enemies in Act 2.\nEffect: Adds 25% fire damage.\nFlavor: \"It sleeps upside down and occasionally burns it's den.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/coin-mimic-magenta-keyed.png",
+      "name": "coin mimic magenta keyed",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/coin-mimic-magenta-keyed.png",
+      "decision": "dont-use",
+      "notes": "Name: Penny\nAcquisition: Unassigned; currently marked don't-use.\nEffect: Cosmetic only.\nFlavor: \"A terrible investment with excellent teeth.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/combat-bloodroot-homunculus.png",
+      "name": "combat bloodroot homunculus",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/combat-bloodroot-homunculus.png",
+      "decision": "use",
+      "notes": "Name: Hemlock\nAcquisition: Found after getting 2k kills in a single blood rite.\nEffect: attacks every 5 seconds, always bleeds, 10% of your damage.\nAttack Frame: 2\nFlavor: \"It grows best when nobody asks what is in the soil.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/combat-gravebell-ram.png",
+      "name": "combat gravebell ram",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/combat-gravebell-ram.png",
+      "decision": "use",
+      "notes": "Name: Knell\nAcquisition: Awarded for defeating 250 delve guardians.\nEffect: Charges every 5 seconds for 8% of your damage and briefly staggers.\nAttack Frame: 2\nFlavor: \"Watch your knees.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/combat-stormwing-moth.png",
+      "name": "combat stormwing moth",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/combat-stormwing-moth.png",
+      "decision": "use",
+      "notes": "Name: Vesper\nAcquisition: shows up after using 15 divine shards\nEffect: afflicts with neurotoxin every 5 seconds and does 5% of your dmg on that attack\nAttack Frame: 2\nFlavor: \"Sent by the Gods\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/combat-thornback-basilisk.png",
+      "name": "combat thornback basilisk",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/combat-thornback-basilisk.png",
+      "decision": "use",
+      "notes": "Name: Cindercone\nAcquisition: found by killing 500k monsters in act 5 desolation\nEffect: shoots a fireball every 2.5 seconds for 5% of your damage. reuse fireball animation from sorc\nAttack Frame: 2\nFlavor: \"Warm to the touch. Regrettably, so is everything near it.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/combat-voidjaw-mimic.png",
+      "name": "combat voidjaw mimic",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/combat-voidjaw-mimic.png",
+      "decision": "use",
+      "notes": "Name: Pockets\nAcquisition: 5% chance to get this from a mimic chest during a delve\nEffect: attacks every 5 seconds with a reduced 'hex' effect, applying the status effect, increasing damage by 15%.\nAttack Frame: 2\nFlavor: \"Eww it has legs.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/crypt-raven.png",
+      "name": "crypt raven",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/crypt-raven.png",
+      "decision": "use",
+      "notes": "Name: Toll\nAcquisition: Very rarely found when farming act 3\nEffect: Occasionally spots a little extra gold after a kill.\nFlavor: \"Counts every grave. Refuses to explain why.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/crystal-fawn.png",
+      "name": "crystal fawn",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/crystal-fawn.png",
+      "decision": "use",
+      "notes": "Name: Prism\nAcquisition: Found after activating 1500 shrines.\nEffect: Occasionally causes a magic item to upgrade to a rare.\nFlavor: \"Do not drop.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/eagle.png",
+      "name": "eagle",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/eagle.png",
+      "decision": "dont-use",
+      "notes": "Name: Kest\nAcquisition: Rare expedition completion reward.\nEffect: Occasionally circles when a bounty target appears; cosmetic only.\nFlavor: \"Judges your pathing from a professional altitude.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/eyebloom-familiar-magenta-keyed.png",
+      "name": "eyebloom familiar magenta keyed",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/eyebloom-familiar-magenta-keyed.png",
+      "decision": "use",
+      "notes": "Name: Iris\nAcquisition: can be purchased by merchants in the delve occasionally. costs 5 million gold\nEffect: Occasionally freezes an enemy for the duration of the fight. No bosses or delve guardians or bounty contracts\nFlavor: \"It has seen what is behind you.\"",
+      "frameCount": 3,
+      "frameOrder": [
+        0,
+        1,
+        2
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/grave-scorpion.png",
+      "name": "grave scorpion",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/grave-scorpion.png",
+      "decision": "use",
+      "notes": "Name: Clicks\nAcquisition: Can be bought from the tinker for 250k\nEffect: poisons very rarely\nFlavor: \"It is not waving.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/graveclaw-spider.png",
+      "name": "graveclaw spider",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/graveclaw-spider.png",
+      "decision": "use",
+      "notes": "Name: Thread\nAcquisition: found in act 1 extremely rarely no difficulty requirement; if the player choses to farm deso act 1 normal it should take 30 hours kind of rarity. easier to get in later rarities\nEffect: No additional effect specified.\nFlavor: \"Has eight legs and still trips over all of them.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 1,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/hollowhorn-ram.png",
+      "name": "hollowhorn ram",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/hollowhorn-ram.png",
+      "decision": "use",
+      "notes": "Name: Thimble\nAcquisition: Extremely rarely found anywhere while farming\nEffect: +5% damage\nFlavor: \"The horn is hollow. The opinions are not.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/horned-mire-lizard.png",
+      "name": "horned mire lizard",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/horned-mire-lizard.png",
+      "decision": "use",
+      "notes": "Name: Stump\nAcquisition: Sometimes rarely shows up in the town shop for 5k\nEffect: Adds 5 hp regen.\nFlavor: \"Proudly unqualified.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 1,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/hound.png",
+      "name": "hound",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/hound.png",
+      "decision": "dont-use",
+      "notes": "Name: Patch\nAcquisition: Given after completing the first bounty chain.\nEffect: Occasionally barks at bounty targets; cosmetic only.\nFlavor: \"Good nose. Questionable sources.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-ashen-fox.png",
+      "name": "idle ashen fox",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-ashen-fox.png",
+      "decision": "use",
+      "notes": "Name: Ember\nAcquisition: mastery level 75 boss hunting.\nEffect: +75% status effectiveness.\nFlavor: \"Steals warm seats and nothing else you can prove.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 2,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-bone-crab.png",
+      "name": "idle bone crab",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-bone-crab.png",
+      "decision": "use",
+      "notes": "Name: Porter\nAcquisition: found after killing the level 60 delve guardian\nEffect: carries an extra delve item out if you have him on when you go in\nFlavor: \"All luggage is technically shell luggage.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-candle-snail.png",
+      "name": "idle candle snail",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-candle-snail.png",
+      "decision": "use",
+      "notes": "Name: Tallow\nAcquisition: found extremely rarely when crushing jars in delves; can be found just by auto-delving or idle queue delves but very very low chance, days of work\nEffect: occassionally burns opponent\nFlavor: \"Not fast, but never late for a vigil.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-cave-axolotl.png",
+      "name": "idle cave axolotl",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-cave-axolotl.png",
+      "decision": "use",
+      "notes": "Name: Glim\nAcquisition: Rare jar or event find in deep delves.\nEffect: Gives 10% more energy shield.\nFlavor: \"No thoughts. Several gills.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 1,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-clockwork-chick.png",
+      "name": "idle clockwork chick",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-clockwork-chick.png",
+      "decision": "use",
+      "notes": "Name: Peep\nAcquisition: given to you after you get your first item tinkered 5 times\nEffect: enhances fully tinkered items by 5%\nFlavor: \"It believes every loose screw is food.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-dusk-bat.png",
+      "name": "idle dusk bat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-dusk-bat.png",
+      "decision": "use",
+      "notes": "Name: Pip\nAcquisition: Town shop purchase after nightfall for 25k gold.\nEffect: Cosmetic idle companion.\nFlavor: \"Small enough to be brave by accident.\"\n\nflying",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-ember-gecko.png",
+      "name": "idle ember gecko",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-ember-gecko.png",
+      "decision": "use",
+      "notes": "Name: Toast\nAcquisition: Found after maintaining Burn on a boss for 30 seconds.\nEffect: Occasionally warms the hero after combat; cosmetic only.\nFlavor: \"He is not burnt. He is finished.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-frost-ferret.png",
+      "name": "idle frost ferret",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-frost-ferret.png",
+      "decision": "use",
+      "notes": "Name: Nips\nAcquisition: Rarely found in jars during Act 5 delves.\nEffect: Gives 5% crit chance.\nFlavor: \"Cold hands. Colder pockets.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-ghost-cat.png",
+      "name": "idle ghost cat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-ghost-cat.png",
+      "decision": "use",
+      "notes": "Name: Mewriel\nAcquisition: Appears after the hero dies nine times in one session.\nEffect: Sometimes fades out and returns somewhere inconvenient but will have an item.\nFlavor: \"Still expects the door opened.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-glass-frog.png",
+      "name": "idle glass frog",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-glass-frog.png",
+      "decision": "use",
+      "notes": "Name: Window\nAcquisition: Extremely rarely dropped from Act 1 farming.\nEffect: Gives 3% extra HP\nFlavor: \"Easy to lose. Difficult to stop hearing.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-grave-mouse.png",
+      "name": "idle grave mouse",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-grave-mouse.png",
+      "decision": "use",
+      "notes": "Name: Crumb\nAcquisition: Rewarded for lvl75 farming mastery\nEffect: Gives 20% magic find.\nFlavor: \"Technically a grave robber. Practically very small.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-iron-beetle.png",
+      "name": "idle iron beetle",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-iron-beetle.png",
+      "decision": "use",
+      "notes": "Name: Buckle\nAcquisition: Purchased from the Tinker for 450k gold.\nEffect: Gives 5% sunder.\nFlavor: \"Built like a shield. Thinks like a spoon.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-moon-hare.png",
+      "name": "idle moon hare",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-moon-hare.png",
+      "decision": "use",
+      "notes": "Name: Lumen\nAcquisition: Exttremely rare any desolation hell act.\nEffect: Adds 350 recovery.\nFlavor: \"Only visible when it wants credit.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-moss-turtle.png",
+      "name": "idle moss turtle",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-moss-turtle.png",
+      "decision": "use",
+      "notes": "Name: Patio\nAcquisition: Found after sitting on the game paused for an hour without closing.\nEffect: +25% xp gain\nFlavor: \"A garden with somewhere to be eventually.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-mushroom-sprite.png",
+      "name": "idle mushroom sprite",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-mushroom-sprite.png",
+      "decision": "use",
+      "notes": "Name: Button\nAcquisition: Rarely sprouts after defeating poisoned enemies.\nEffect: Occasionally releases spores. Spores cause the enemy to miss 10% attacks\nFlavor: \"Probably edible. This is not advice.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-plague-crow.png",
+      "name": "idle plague crow",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-plague-crow.png",
+      "decision": "use",
+      "notes": "Name: Sneeze\nAcquisition: Given to you after choosing your first mastery in epoch.\nEffect: +50% gold find.\nFlavor: \"That's his lucky coin\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-rune-owl.png",
+      "name": "idle rune owl",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-rune-owl.png",
+      "decision": "use",
+      "notes": "Name: Serif\nAcquisition: Reward for reading every unlocked Journal entry.\nEffect: Sometimes marks a target for death. Giving you 10% culling strike. half for bosses.\nFlavor: \"Corrects your pronunciation by staring harder.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-silver-koi-wisp.png",
+      "name": "idle silver koi wisp",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-silver-koi-wisp.png",
+      "decision": "use",
+      "notes": "Name: Ripple\nAcquisition: Extremely rare from anywhere farming.\nEffect: Regenerates 1% energy shield per second.\nFlavor: \"Swims through air because water was too conventional.\"\n\nflying",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-thorn-hedgehog.png",
+      "name": "idle thorn hedgehog",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-thorn-hedgehog.png",
+      "decision": "use",
+      "notes": "Name: Needles\nAcquisition: Rare Act 3 farming drop.\nEffect: Gives you 15% thorns.\nFlavor: \"Pet carefully. Or delegate.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/idle-tiny-mimic.png",
+      "name": "idle tiny mimic",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/idle-tiny-mimic.png",
+      "decision": "use",
+      "notes": "Name: Lunchbox\nAcquisition: Very rare drop from a defeated mimic chest.\nEffect: Gives an item a lucky roll sometimes.\nFlavor: \"Pack a snack. Become the snack.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/ironback-rat.png",
+      "name": "ironback rat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/ironback-rat.png",
+      "decision": "use",
+      "notes": "Name: Scraps\nAcquisition: Purchased from the Tinker after salvaging 3,000 items.\nEffect: Occasionally retrieves a tiny amount of salvage.\nFlavor: \"Nothing is junk if you chew it long enough.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/longhaired-black-cat.png",
+      "name": "longhaired black cat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/longhaired-black-cat.png",
+      "decision": "use",
+      "notes": "Name: Ophelia\nAcquisition: Reward for your first town visit.\nEffect: Cosmetic idle companion.\nFlavor: \"She just keeps yelling at you, nobody knows what she wants.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/lynx.png",
+      "name": "lynx",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/lynx.png",
+      "decision": "dont-use",
+      "notes": "Name: Socks\nAcquisition: Rare bounty hunt companion reward.\nEffect: Cosmetic idle companion.\nFlavor: \"Silent hunter. Loud opinions about breakfast.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/miniature-griffin.png",
+      "name": "miniature griffin",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/miniature-griffin.png",
+      "decision": "use",
+      "notes": "Name: Pipsqueak\nAcquisition: Expensive Walsh inventory item for 2 million gold.\nEffect: Slightly increases the magnitudes of unique items.\nFlavor: \"Majesty, now available in travel size.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/mire-crocodile.png",
+      "name": "mire crocodile",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/mire-crocodile.png",
+      "decision": "use",
+      "notes": "Name: Boots\nAcquisition: Rare Act 3 swamp encounter reward.\nEffect: Greatly increases the magnitude of rare and magic boot rolls.\nFlavor: \"Named for the last thing it ate.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/panther.png",
+      "name": "panther",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/panther.png",
+      "decision": "undecided",
+      "notes": "Name: Velvet\nAcquisition: Reward for completing 100 hunts without abandoning one.\nEffect: Occasionally prowls behind the target; cosmetic only.\nFlavor: \"The darkness has started purring.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/pygmy-horned-goat.png",
+      "name": "pygmy horned goat",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/pygmy-horned-goat.png",
+      "decision": "use",
+      "notes": "Name: Taxes\nAcquisition: Town shop gold sink for 750k gold.\nEffect: Periodically eats a small amount of gold; provides no benefit.\nFlavor: \"Some costs are recurring.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/raven.png",
+      "name": "raven",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/raven.png",
+      "decision": "dont-use",
+      "notes": "Name: Quill\nAcquisition: Given after discovering 25 unique items.\nEffect: Occasionally lands near newly dropped loot; cosmetic only.\nFlavor: \"Keeps a list. You are on it twice.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/reliquary-jackal.png",
+      "name": "reliquary jackal",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/reliquary-jackal.png",
+      "decision": "use",
+      "notes": "Name: Votive\nAcquisition: Rare reward for fully leveling 75% of relics.\nEffect: Makes relic activation last 20 seconds longer.\nFlavor: \"Guards holy things and one suspicious stick.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/river-otter.png",
+      "name": "river otter",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/river-otter.png",
+      "decision": "use",
+      "notes": "Name: Pebble\nAcquisition: Rarely found on after killing a boss.\nEffect: Cosmetic idle companion.\nFlavor: \"Carries one rock. Rejects all upgrades.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/runic-squirrel.png",
+      "name": "runic squirrel",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/runic-squirrel.png",
+      "decision": "use",
+      "notes": "Name: Cache\nAcquisition: Rarely appears after spending a large amount of gem shards. This includes crafting and fortune mill\nEffect: Occasionally finds an extra gem shard during combat.\nFlavor: \"Saving for winter, one apocalypse at a time.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/sable-capybara.png",
+      "name": "sable capybara",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/sable-capybara.png",
+      "decision": "use",
+      "notes": "Name: Duke\nAcquisition: Town shop luxury purchase for 1 million gold.\nEffect: Cosmetic idle companion.\nFlavor: \"Untroubled by the Everdeep. Mildly troubled by stairs.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/serpent.png",
+      "name": "serpent",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/serpent.png",
+      "decision": "dont-use",
+      "notes": "Name: Noodle\nAcquisition: Rare poison-skill mastery reward.\nEffect: Occasionally hisses when Poison is applied; cosmetic only.\nFlavor: \"Long, judgmental, and technically portable.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/shade-serpent.png",
+      "name": "shade serpent",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/shade-serpent.png",
+      "decision": "use",
+      "notes": "Name: Smudge\nAcquisition: Extremely rarely found in the Everdeep.\nEffect: Occasionally fully blocks an attack.\nFlavor: \"Escaped from the corner of your eye.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/shadow-raccoon.png",
+      "name": "shadow raccoon",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/shadow-raccoon.png",
+      "decision": "use",
+      "notes": "Name: Lockpick\nAcquisition: Rarely found when opening any chests, including stuff in delves. Extremely rare.\nEffect: Collects essence over time.\nFlavor: \"Wash your loot before equipping it.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tatterwing-vulture.png",
+      "name": "tatterwing vulture",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/tatterwing-vulture.png",
+      "decision": "use",
+      "notes": "Name: Scrim\nAcquisition: Rare Act 5 Desolation drop.\nEffect: Gives 0.25% life on hit.\nFlavor: \"Optimistic about your survival in a very specific way.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/wolf.png",
+      "name": "wolf",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/wolf.png",
+      "decision": "dont-use",
+      "notes": "Name: Moss\nAcquisition: Reward for clearing every normal act with one character.\nEffect: Occasionally howls when entering a new act; cosmetic only.\nFlavor: \"A loyal companion and an unreliable pillow.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/wyvern.png",
+      "name": "wyvern",
+      "type": "pet",
+      "group": "pets",
+      "path": "assets/pets/wyvern.png",
+      "decision": "dont-use",
+      "notes": "Name: Cinder\nAcquisition: Very rare endgame Journey reward.\nEffect: Occasionally breathes a harmless spark after combat.\nFlavor: \"A dragon, according to its own paperwork.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tinker/boilerback-mole.png",
+      "name": "Boilerback Mole",
+      "type": "pet",
+      "group": "tinker-pets",
+      "path": "assets/pets/tinker/boilerback-mole.png",
+      "decision": "use",
+      "notes": "Name: Kettle\nAcquisition: Purchased from the Tinker for 800k gold.\nEffect: Sometimes digs up a gear that can be traded to the tinker for an extra item tinker.\nFlavor: \"Runs hot. Digs cold.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 1,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tinker/clockwork-scarab.png",
+      "name": "Clockwork Scarab",
+      "type": "pet",
+      "group": "tinker-pets",
+      "path": "assets/pets/tinker/clockwork-scarab.png",
+      "decision": "use",
+      "notes": "Name: Clicker\nAcquisition: Purchased from the Tinker after crafting 100 items.\nEffect: Reduces -1% chance to destroy an item per 5%. So 50% chance to destroy an item would turn into 40%.\nFlavor: \"Has six legs and seven maintenance schedules.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tinker/gearwing-raven.png",
+      "name": "Gearwing Raven",
+      "type": "pet",
+      "group": "tinker-pets",
+      "path": "assets/pets/tinker/gearwing-raven.png",
+      "decision": "use",
+      "notes": "Name: Ratchet\nAcquisition: Tinker reward for fully upgrading the Fortune Mill.\nEffect: Halves energy usage for the fortune mill.\nFlavor: \"Nevermore, unless properly lubricated.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tinker/rivet-hound.png",
+      "name": "Rivet Hound",
+      "type": "pet",
+      "group": "tinker-pets",
+      "path": "assets/pets/tinker/rivet-hound.png",
+      "decision": "use",
+      "notes": "Name: Socket\nAcquisition: A rare schematic for this pet drops in Everdeep. Costs 5 million to build.\nEffect: Can use a fully tinkered unique in your Vault and gives you the special line.\nFlavor: \"Good machine. Best wrench retriever.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    },
+    {
+      "id": "pet:assets/pets/tinker/springtail-lizard.png",
+      "name": "Springtail Lizard",
+      "type": "pet",
+      "group": "tinker-pets",
+      "path": "assets/pets/tinker/springtail-lizard.png",
+      "decision": "use",
+      "notes": "Name: Coil\nAcquisition: Schematic randomly found throughout the game on kill. 20 of each gem shard to build by the tinker.\nEffect: Occasionally performs an unnecessary calibration hop that causes you to critical strike 5 times in a row.\nFlavor: \"Precision engineering with no brakes.\"",
+      "frameCount": 4,
+      "frameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "usableFrameOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "excludedFrameIndexes": [],
+      "excludedFrameNumbers": [],
+      "usableFrameIndexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "number": 1,
+          "sourceIndex": 0,
+          "sourceNumber": 1,
+          "outputIndex": 0,
+          "outputNumber": 1,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 1,
+          "number": 2,
+          "sourceIndex": 1,
+          "sourceNumber": 2,
+          "outputIndex": 1,
+          "outputNumber": 2,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 2,
+          "number": 3,
+          "sourceIndex": 2,
+          "sourceNumber": 3,
+          "outputIndex": 2,
+          "outputNumber": 3,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        },
+        {
+          "index": 3,
+          "number": 4,
+          "sourceIndex": 3,
+          "sourceNumber": 4,
+          "outputIndex": 3,
+          "outputNumber": 4,
+          "use": true,
+          "excluded": false,
+          "notes": ""
+        }
+      ],
+      "pixelSettings": {
+        "frameCount": 4,
+        "targetHeight": 128,
+        "previewZoom": 3,
+        "paletteSteps": 8,
+        "dither": 0,
+        "alphaCutoff": 12,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 100,
+        "trimPadding": 2,
+        "trimTransparent": true,
+        "outline": false,
+        "previewBg": "checker",
+        "animSpeed": 500
+      }
+    }
+  ]
+}
