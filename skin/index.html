@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Everdeep — Warden's Menagerie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="screen">
+    <header class="screen-header">
+      <div class="title-plaque">
+        <h1>Warden's Menagerie</h1>
+      </div>
+      <p>Choose a companion to travel with your hero.</p>
+      <nav class="mockup-switcher" aria-label="Mockup view">
+        <button class="view-button active" type="button" data-view="menagerie">Menagerie · Desktop</button>
+        <button class="view-button" type="button" data-view="compact">Menagerie · Phone</button>
+      </nav>
+    </header>
+
+    <div id="menagerieView" class="view-pane active">
+    <section class="gate" aria-label="Pet and companion selection">
+      <div class="well active-well">
+        <div class="well-heading">
+          <span>Active Companion</span>
+        </div>
+
+        <div class="active-stage">
+          <div class="pet-aura" aria-hidden="true"></div>
+          <div id="activeSprite" class="pet-sprite active-sprite" role="img"></div>
+          <div class="ground-shadow" aria-hidden="true"></div>
+        </div>
+
+        <div class="active-copy">
+          <div class="name-line">
+            <h2 id="petName">Companion</h2>
+            <span id="petKind" class="kind">Idle companion</span>
+            <span id="discoveryState" class="discovery-state">Not Found</span>
+          </div>
+          <p id="petFlavor" class="flavor"></p>
+          <dl class="pet-details">
+            <div><dt>Effect</dt><dd id="petEffect"></dd></div>
+            <div><dt>Found</dt><dd id="petAcquisition"></dd></div>
+          </dl>
+        </div>
+
+        <div class="active-actions">
+          <button id="equipButton" class="game-button" type="button">Equip Companion</button>
+        </div>
+      </div>
+
+      <div class="well roster-well">
+        <div class="roster-head">
+          <div>
+            <div class="well-heading roster-title">
+              <span>Companions</span>
+              <span class="pet-count" id="petCount"></span>
+            </div>
+          </div>
+          <label class="search">
+            <span class="sr-only">Search companions</span>
+            <input id="searchInput" type="search" placeholder="Search name or effect…" autocomplete="off">
+          </label>
+        </div>
+        <div id="petGrid" class="pet-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>No companions match that search.</div>
+      </div>
+
+      <div class="gate-frame-pair" aria-hidden="true">
+        <img src="assets/wardens-menagerie-gate-left-642x540.png" alt="">
+        <img src="assets/wardens-menagerie-gate-right-642x540.png" alt="">
+      </div>
+    </section>
+
+    <footer class="screen-footer">
+      <span>Companions keep their effects while equipped.</span>
+      <span>Click any portrait to inspect it.</span>
+    </footer>
+    </div>
+
+    <section id="phoneView" class="view-pane compact-view" hidden aria-label="Phone companion selection mockup">
+      <div class="phone-notes">
+        <span>390 × 844 reference</span>
+        <strong>Active companion and collection stay on one compact screen.</strong>
+      </div>
+      <div class="phone-shell menagerie-phone">
+        <header class="compact-header">
+          <button type="button" class="compact-back" aria-label="Back">‹</button>
+          <div><small>Companions</small><strong>Warden's Menagerie</strong></div>
+          <span id="phonePetCount" class="compact-count">0 / 0</span>
+        </header>
+
+        <section class="compact-active" aria-label="Active companion">
+          <div class="compact-active-stage">
+            <div class="compact-aura" aria-hidden="true"></div>
+            <div id="phonePetSprite" class="pet-sprite phone-pet" aria-label="Selected companion"></div>
+          </div>
+          <div class="compact-active-copy">
+            <span class="compact-kicker">Active Companion</span>
+            <h2 id="phonePetName">Companion</h2>
+            <span id="phoneDiscoveryState" class="discovery-state compact-discovery">Not Found</span>
+            <p id="phonePetFlavor"></p>
+            <dl>
+              <dt>Effect</dt><dd id="phonePetEffect"></dd>
+            </dl>
+            <button id="phoneEquipButton" class="game-button compact-equip" type="button">Equip</button>
+          </div>
+        </section>
+
+        <div class="compact-roster-head">
+          <div><strong>Collection</strong><small>Tap a portrait to inspect</small></div>
+          <label class="compact-search">
+            <span class="sr-only">Search companions</span>
+            <input id="phoneSearchInput" type="search" placeholder="Search…" autocomplete="off">
+          </label>
+        </div>
+        <div id="phonePetGrid" class="compact-pet-grid" aria-live="polite"></div>
+        <div id="phoneEmptyState" class="compact-empty" hidden>No companions match that search.</div>
+
+        <footer class="compact-footer">
+          <button type="button">All</button>
+          <button type="button">Idle</button>
+          <button type="button">Combat</button>
+          <button type="button">Tinker</button>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="pets-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
