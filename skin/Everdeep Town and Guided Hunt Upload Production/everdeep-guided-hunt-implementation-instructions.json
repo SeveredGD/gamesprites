@@ -1,0 +1,166 @@
+{
+  "schema": "everdeep-guided-hunt-implementation-v2",
+  "status": "approved-layout-handoff",
+  "referenceCanvas": {
+    "width": 1536,
+    "height": 1024,
+    "aspectRatio": "3:2",
+    "coordinateRule": "Use normalized coordinates so the complete composition scales as one unit. Do not independently stretch the frame, map, sockets, or right ledger."
+  },
+  "primaryAssetNames": {
+    "skin": "guided-hunt-trail-map-skin-transparent-1536x1024.png",
+    "uploadLocations": {
+      "skin": "guided-hunt-assets/guided-hunt-trail-map-skin-transparent-1536x1024.png",
+      "icons": "guided-hunt-assets/icons/"
+    },
+    "stageIcons": [
+      "camp-start-128.png",
+      "guardian-1-128.png",
+      "clue-trail-128.png",
+      "guardian-2-128.png",
+      "clue-cache-128.png",
+      "guardian-3-128.png",
+      "clue-quarry-128.png",
+      "mark-128.png"
+    ],
+    "companionIcon": "companion-found-128.png",
+    "nativeIconSources": "Matching files use the same names with -native instead of -128 in the primary Guided Hunt asset folder.",
+    "detourIcon": "Use the project's unique-item indicator when available. The mockup currently uses clue-cache-128.png only as a temporary route marker."
+  },
+  "layout": {
+    "shell": {
+      "left": 0,
+      "top": 0,
+      "width": 1,
+      "height": 1
+    },
+    "mapArea": {
+      "x": 0.052,
+      "y": 0.152,
+      "width": 0.641,
+      "height": 0.64,
+      "rule": "All route lines and map markers use this region as their coordinate space. Preserve the existing map artwork inside it."
+    },
+    "contractSummary": {
+      "x": 0.2018,
+      "y": 0.0479,
+      "width": 0.1855,
+      "height": 0.0566
+    },
+    "targetNameAndSilhouette": {
+      "x": 0.5534,
+      "y": 0.0479,
+      "width": 0.2279,
+      "height": 0.0596
+    },
+    "quitButton": {
+      "x": 0.8184,
+      "y": 0.0498,
+      "width": 0.0586,
+      "height": 0.0225
+    },
+    "autoResolveButton": {
+      "x": 0.8184,
+      "y": 0.0791,
+      "width": 0.0586,
+      "height": 0.0225
+    },
+    "stageTitle": {
+      "x": 0.7565,
+      "y": 0.2148,
+      "width": 0.1491,
+      "height": 0.0508
+    },
+    "stageReadOrEncounterArea": {
+      "x": 0.7376,
+      "y": 0.2725,
+      "width": 0.1882,
+      "height": 0.3877
+    },
+    "currentPromiseArea": {
+      "x": 0.7383,
+      "y": 0.665,
+      "width": 0.1868,
+      "height": 0.2031
+    },
+    "stageSockets": [
+      { "stage": 1, "x": 0.0892, "y": 0.8271, "width": 0.0202, "height": 0.0293 },
+      { "stage": 2, "x": 0.1764, "y": 0.8271, "width": 0.0202, "height": 0.0293 },
+      { "stage": 3, "x": 0.2637, "y": 0.8271, "width": 0.0202, "height": 0.0293 },
+      { "stage": 4, "x": 0.3509, "y": 0.8262, "width": 0.0202, "height": 0.0293 },
+      { "stage": 5, "x": 0.4375, "y": 0.8262, "width": 0.0202, "height": 0.0293 },
+      { "stage": 6, "x": 0.5247, "y": 0.8262, "width": 0.0202, "height": 0.0293 },
+      { "stage": 7, "x": 0.6289, "y": 0.8252, "width": 0.0228, "height": 0.0342 }
+    ]
+  },
+  "route": {
+    "normalStages": [
+      { "index": 0, "kind": "camp", "label": "Hunter Camp", "mapX": 0.08, "mapY": 0.77 },
+      { "index": 1, "kind": "guardian", "label": "First Guardian", "mapX": 0.2, "mapY": 0.65 },
+      { "index": 2, "kind": "clue", "label": "The Trail", "mapX": 0.33, "mapY": 0.47 },
+      { "index": 3, "kind": "guardian", "label": "Second Guardian", "mapX": 0.45, "mapY": 0.58 },
+      { "index": 4, "kind": "clue", "label": "The Cache", "mapX": 0.57, "mapY": 0.38 },
+      { "index": 5, "kind": "guardian", "label": "Third Guardian", "mapX": 0.69, "mapY": 0.48 },
+      { "index": 6, "kind": "clue", "label": "The Quarry", "mapX": 0.8, "mapY": 0.28 },
+      { "index": 7, "kind": "mark", "label": "The Mark", "mapX": 0.91, "mapY": 0.13 }
+    ],
+    "visualStates": {
+      "past": "Dimmed but readable and marked complete.",
+      "current": "Gold outline and restrained glow; scale slightly above adjacent nodes.",
+      "future": "Strongly dimmed and desaturated; hide its text label until reached."
+    },
+    "interaction": "Selecting either a map marker or its bottom socket opens that stage in the right ledger. Advancing updates the route line, marker state, socket state, and recent hunt log."
+  },
+  "clueChoices": {
+    "rule": "Every clue presents skill-based read choices. A choice contributes its Magic Find/reward consequences and immediately records the listed mastery gain.",
+    "masteryDisplay": "Mastery gained must stack in Current Promise as one line per completed clue. Never replace an earlier clue's mastery line with the newest selection.",
+    "selectionBehavior": "Changing a clue choice updates only that clue's mastery entry and recalculates the current promise."
+  },
+  "currentPromise": {
+    "rows": [
+      "Magic Find",
+      "Rarity floor",
+      "Named item",
+      "Mastery gained",
+      "Companion when generated"
+    ],
+    "rule": "This is a live cumulative summary, not merely the reward for the selected stage. It updates after each clue, special route, or generated encounter."
+  },
+  "uniqueDetour": {
+    "visibility": "Render a detour only when that generated detour offers a Unique item. Do not show detours for magic, rare, generic, or ordinary extra items.",
+    "mapPosition": { "x": 0.55, "y": 0.75, "coordinateSpace": "mapArea" },
+    "choices": [
+      { "id": "take", "label": "Take the detour", "resultPreview": "Unique item · 50% run forfeiture risk" },
+      { "id": "stay", "label": "Stay on trail", "resultPreview": "Keep the current run with no detour risk" }
+    ],
+    "takeResolution": {
+      "successChance": 0.5,
+      "failureChance": 0.5,
+      "success": "Add the Unique item to Current Promise, close the branch, and resume the hunt at the existing stage.",
+      "failure": "Forfeit the entire Guided Hunt, the target, and all currently promised run loot, then return to the Hunter Camp flow.",
+      "masteryOnFailure": "Previously earned clue mastery is career learning and should remain earned unless the game's existing mastery rules explicitly defer it until hunt completion."
+    },
+    "copyRequirement": "The 50% whole-run forfeiture must be visible before confirmation; do not hide it in a tooltip."
+  },
+  "companionEncounter": {
+    "visibility": "Only render when the hunt generator has produced a companion encounter.",
+    "mapPosition": { "x": 0.745, "y": 0.38, "coordinateSpace": "mapArea" },
+    "behavior": "Selecting the node opens a companion encounter state in the right ledger. Completing the hunt adds the companion to the menagerie.",
+    "currentPromise": "When generated, add a Companion row with Encounter found."
+  },
+  "responsiveBehavior": {
+    "desktop": "Keep the full 3:2 framed composition and overlay all content using percentages.",
+    "smallScreens": "Scale the complete shell uniformly first. If the game uses a dedicated phone layout, preserve the same information hierarchy: route/map, current stage decision, Current Promise, then socket history.",
+    "minimumRequirement": "No icon, label, choice, or reward row may overlap ornamental frame pixels or leave its painted usable region."
+  },
+  "acceptanceChecks": [
+    "The map artwork and fake-writing detail remain visible behind the route.",
+    "All eight normal route nodes follow the correct order.",
+    "The seven bottom sockets align with their painted openings and their icons remain inside the squares.",
+    "Clue mastery entries accumulate instead of replacing one another.",
+    "A non-Unique detour is never rendered.",
+    "Taking a Unique detour clearly exposes and applies the 50% whole-run forfeiture roll.",
+    "Generated companions appear both on the map and in Current Promise.",
+    "Quit and Auto Resolve use existing game confirmation and resolution rules rather than mockup-only behavior."
+  ]
+}
