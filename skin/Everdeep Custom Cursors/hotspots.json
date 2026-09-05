@@ -1,0 +1,158 @@
+{
+  "default": {
+    "32": {
+      "file": "assets/default-32.png",
+      "hotspot": [
+        5,
+        8
+      ],
+      "fallback": "default"
+    },
+    "48": {
+      "file": "assets/default-48.png",
+      "hotspot": [
+        7,
+        11
+      ],
+      "fallback": "default"
+    },
+    "64": {
+      "file": "assets/default-64.png",
+      "hotspot": [
+        8,
+        14
+      ],
+      "fallback": "default"
+    }
+  },
+  "pointer": {
+    "32": {
+      "file": "assets/pointer-32.png",
+      "hotspot": [
+        6,
+        2
+      ],
+      "fallback": "pointer"
+    },
+    "48": {
+      "file": "assets/pointer-48.png",
+      "hotspot": [
+        8,
+        2
+      ],
+      "fallback": "pointer"
+    },
+    "64": {
+      "file": "assets/pointer-64.png",
+      "hotspot": [
+        11,
+        2
+      ],
+      "fallback": "pointer"
+    }
+  },
+  "attack": {
+    "32": {
+      "file": "assets/attack-32.png",
+      "hotspot": [
+        4,
+        6
+      ],
+      "fallback": "crosshair"
+    },
+    "48": {
+      "file": "assets/attack-48.png",
+      "hotspot": [
+        5,
+        8
+      ],
+      "fallback": "crosshair"
+    },
+    "64": {
+      "file": "assets/attack-64.png",
+      "hotspot": [
+        7,
+        10
+      ],
+      "fallback": "crosshair"
+    }
+  },
+  "inspect": {
+    "32": {
+      "file": "assets/inspect-32.png",
+      "hotspot": [
+        12,
+        12
+      ],
+      "fallback": "zoom-in"
+    },
+    "48": {
+      "file": "assets/inspect-48.png",
+      "hotspot": [
+        17,
+        17
+      ],
+      "fallback": "zoom-in"
+    },
+    "64": {
+      "file": "assets/inspect-64.png",
+      "hotspot": [
+        23,
+        22
+      ],
+      "fallback": "zoom-in"
+    }
+  },
+  "blocked": {
+    "32": {
+      "file": "assets/blocked-32.png",
+      "hotspot": [
+        3,
+        5
+      ],
+      "fallback": "not-allowed"
+    },
+    "48": {
+      "file": "assets/blocked-48.png",
+      "hotspot": [
+        3,
+        6
+      ],
+      "fallback": "not-allowed"
+    },
+    "64": {
+      "file": "assets/blocked-64.png",
+      "hotspot": [
+        3,
+        8
+      ],
+      "fallback": "not-allowed"
+    }
+  },
+  "wait": {
+    "32": {
+      "file": "assets/wait-32.png",
+      "hotspot": [
+        11,
+        16
+      ],
+      "fallback": "wait"
+    },
+    "48": {
+      "file": "assets/wait-48.png",
+      "hotspot": [
+        16,
+        24
+      ],
+      "fallback": "wait"
+    },
+    "64": {
+      "file": "assets/wait-64.png",
+      "hotspot": [
+        21,
+        32
+      ],
+      "fallback": "wait"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+/* Opt in on the game root. Text fields retain native text cursors. */
+.ed-cursors-32 { cursor: url("assets/default-32.png?v=2") 5 8, default; }
+.ed-cursors-32 [data-cursor="pointer"], .ed-cursors-32 button:not(:disabled), .ed-cursors-32 a[href], .ed-cursors-32 select, .ed-cursors-32 summary, .ed-cursors-32 label[for], .ed-cursors-32 input[type="checkbox"], .ed-cursors-32 input[type="radio"], .ed-cursors-32 input[type="range"], .ed-cursors-32 [onclick], .ed-cursors-32 [style*="cursor:pointer"], .ed-cursors-32 [style*="cursor: pointer"] { cursor: url("assets/pointer-32.png?v=2") 6 2, pointer !important; }
+.ed-cursors-32 [data-cursor="attack"] { cursor: url("assets/attack-32.png?v=2") 4 6, crosshair !important; }
+.ed-cursors-32 [data-cursor="inspect"] { cursor: url("assets/inspect-32.png?v=2") 12 12, zoom-in !important; }
+.ed-cursors-32 [data-cursor="blocked"], .ed-cursors-32 button:disabled { cursor: url("assets/blocked-32.png?v=2") 3 5, not-allowed !important; }
+.ed-cursors-32 [data-cursor="wait"] { cursor: url("assets/wait-32.png?v=2") 11 16, wait !important; }
+.ed-cursors-48 { cursor: url("assets/default-48.png?v=2") 7 11, default; }
+.ed-cursors-48 [data-cursor="pointer"], .ed-cursors-48 button:not(:disabled), .ed-cursors-48 a[href], .ed-cursors-48 select, .ed-cursors-48 summary, .ed-cursors-48 label[for], .ed-cursors-48 input[type="checkbox"], .ed-cursors-48 input[type="radio"], .ed-cursors-48 input[type="range"], .ed-cursors-48 [onclick], .ed-cursors-48 [style*="cursor:pointer"], .ed-cursors-48 [style*="cursor: pointer"] { cursor: url("assets/pointer-48.png?v=2") 8 2, pointer !important; }
+.ed-cursors-48 [data-cursor="attack"] { cursor: url("assets/attack-48.png?v=2") 5 8, crosshair !important; }
+.ed-cursors-48 [data-cursor="inspect"] { cursor: url("assets/inspect-48.png?v=2") 17 17, zoom-in !important; }
+.ed-cursors-48 [data-cursor="blocked"], .ed-cursors-48 button:disabled { cursor: url("assets/blocked-48.png?v=2") 3 6, not-allowed !important; }
+.ed-cursors-48 [data-cursor="wait"] { cursor: url("assets/wait-48.png?v=2") 16 24, wait !important; }
+.ed-cursors-64 { cursor: url("assets/default-64.png?v=2") 8 14, default; }
+.ed-cursors-64 [data-cursor="pointer"], .ed-cursors-64 button:not(:disabled), .ed-cursors-64 a[href], .ed-cursors-64 select, .ed-cursors-64 summary, .ed-cursors-64 label[for], .ed-cursors-64 input[type="checkbox"], .ed-cursors-64 input[type="radio"], .ed-cursors-64 input[type="range"], .ed-cursors-64 [onclick], .ed-cursors-64 [style*="cursor:pointer"], .ed-cursors-64 [style*="cursor: pointer"] { cursor: url("assets/pointer-64.png?v=2") 11 2, pointer !important; }
+.ed-cursors-64 [data-cursor="attack"] { cursor: url("assets/attack-64.png?v=2") 7 10, crosshair !important; }
+.ed-cursors-64 [data-cursor="inspect"] { cursor: url("assets/inspect-64.png?v=2") 23 22, zoom-in !important; }
+.ed-cursors-64 [data-cursor="blocked"], .ed-cursors-64 button:disabled { cursor: url("assets/blocked-64.png?v=2") 3 8, not-allowed !important; }
+.ed-cursors-64 [data-cursor="wait"] { cursor: url("assets/wait-64.png?v=2") 21 32, wait !important; }
+[class*="ed-cursors-"] input, [class*="ed-cursors-"] textarea { cursor: text; }
+[class*="ed-cursors-"] [style*="cursor:grab"], [class*="ed-cursors-"] [style*="cursor: grab"] { cursor: grab !important; }
+[class*="ed-cursors-"] [style*="cursor:grabbing"], [class*="ed-cursors-"] [style*="cursor: grabbing"] { cursor: grabbing !important; }
+[class*="ed-cursors-"] [style*="cursor:col-resize"], [class*="ed-cursors-"] [style*="cursor: col-resize"] { cursor: col-resize !important; }
+[class*="ed-cursors-"] [style*="cursor:ns-resize"], [class*="ed-cursors-"] [style*="cursor: ns-resize"] { cursor: ns-resize !important; }
