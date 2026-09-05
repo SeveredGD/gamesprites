@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "source": "tinker-clockwork-kit-v2-source.png",
+  "assets": {
+    "shop-frame": {
+      "file": "shop-frame.png",
+      "size": [
+        726,
+        879
+      ],
+      "sliceTRBL": [
+        145,
+        156,
+        155,
+        155
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        72.5,
+        78.0,
+        77.5,
+        77.5
+      ],
+      "minimumSize": [
+        360,
+        320
+      ]
+    },
+    "improvement-frame": {
+      "file": "improvement-frame.png",
+      "size": [
+        454,
+        451
+      ],
+      "sliceTRBL": [
+        112,
+        110,
+        112,
+        110
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        56.0,
+        55.0,
+        56.0,
+        55.0
+      ],
+      "minimumSize": [
+        260,
+        260
+      ]
+    },
+    "button-normal": {
+      "file": "button-normal.png",
+      "size": [
+        505,
+        130
+      ],
+      "sliceTRBL": [
+        35,
+        110,
+        35,
+        110
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        17.5,
+        55.0,
+        17.5,
+        55.0
+      ],
+      "minimumSize": [
+        160,
+        65.0
+      ]
+    },
+    "button-pressed": {
+      "file": "button-pressed.png",
+      "size": [
+        505,
+        130
+      ],
+      "sliceTRBL": [
+        35,
+        110,
+        35,
+        110
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        17.5,
+        55.0,
+        17.5,
+        55.0
+      ],
+      "minimumSize": [
+        160,
+        65.0
+      ]
+    },
+    "tab-normal": {
+      "file": "tab-normal.png",
+      "size": [
+        835,
+        134
+      ],
+      "sliceTRBL": [
+        35,
+        110,
+        35,
+        110
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        17.5,
+        55.0,
+        17.5,
+        55.0
+      ],
+      "minimumSize": [
+        160,
+        67.0
+      ]
+    },
+    "tab-active": {
+      "file": "tab-active.png",
+      "size": [
+        835,
+        134
+      ],
+      "sliceTRBL": [
+        35,
+        110,
+        35,
+        110
+      ],
+      "displayScale": 0.5,
+      "borderWidthTRBL": [
+        17.5,
+        55.0,
+        17.5,
+        55.0
+      ],
+      "minimumSize": [
+        160,
+        67.0
+      ]
+    }
+  },
+  "overlays": {
+    "clockwork-crest": {
+      "size": [
+        222,
+        112
+      ],
+      "displaySize": [
+        111,
+        56
+      ],
+      "anchor": "top center"
+    },
+    "winding-key": {
+      "size": [
+        78,
+        110
+      ],
+      "displaySize": [
+        39,
+        55
+      ],
+      "anchor": "right center, overlap 14px"
+    }
+  }
+}

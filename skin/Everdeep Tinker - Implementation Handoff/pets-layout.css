@@ -1,0 +1,5 @@
+#tinker-five .tk-pets{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+#tinker-five .tk-pets .tk-product:first-child{grid-column:auto}
+#tinker-five .tk-pet-effect{font-size:14px;line-height:1.5;margin:0 0 10px;color:#e0cfad}
+#tinker-five .tk-tabs button{font-size:12px}
+@media(max-width:650px){#tinker-five .tk-tabs{flex-wrap:wrap}#tinker-five .tk-tabs button{flex:1 1 140px}#tinker-five .tk-pets{grid-template-columns:1fr}}

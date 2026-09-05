@@ -1,0 +1,22 @@
+/* Paths are relative to this stylesheet. Preserve asset folder layout. */
+.tinker-clockwork-panel{position:relative;isolation:isolate;box-sizing:border-box;color:#ded1b3;padding:85px 42px 76px;font-family:Georgia,serif;min-width:360px;min-height:320px}
+.tinker-clockwork-panel::before{content:"";position:absolute;inset:18px;z-index:-2;background:#191714 url("assets/interior-tile.png") repeat;background-size:128px 128px}
+.tinker-clockwork-panel::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-style:solid;border-color:transparent;border-width:72.5px 78px 77.5px 77.5px;border-image:url("assets/shop-frame.png") 145 156 155 155 / 72.5px 78px 77.5px 77.5px / 0 stretch}
+.tinker-clockwork-crest{position:absolute;pointer-events:none;width:111px;height:56px;top:0;left:50%;transform:translateX(-50%);background:url("assets/clockwork-crest.png") center/100% 100% no-repeat}
+.tinker-clockwork-panel--improvement{min-width:260px;min-height:260px;padding:64px 39px}
+.tinker-clockwork-panel--improvement::after{border-width:56px 55px;border-image-source:url("assets/improvement-frame.png");border-image-slice:112 110 112 110;border-image-width:56px 55px}
+.tinker-clockwork-key{position:absolute;right:-25px;top:50%;margin-top:-27.5px;width:39px;height:55px;background:url("assets/winding-key.png") center/100% 100% no-repeat;pointer-events:none}
+/* Fixed control heights preserve endcap gear proportions. Width remains fluid. */
+.tinker-clockwork-button{box-sizing:border-box;min-width:160px;height:65px;border:solid transparent;border-width:17.5px 55px;border-image:url("assets/button-normal.png?v=2") 35 110 35 110 fill / 17.5px 55px / 0 stretch;background:none;padding:0;color:#20170f;font:14px Georgia,serif;cursor:pointer;white-space:nowrap}
+.tinker-clockwork-button:active,.tinker-clockwork-button.is-pressed{border-image-source:url("assets/button-pressed.png?v=2");color:#eee0c3}
+.tinker-clockwork-button:disabled{opacity:.48;cursor:default}
+.tinker-clockwork-tab{box-sizing:border-box;min-width:160px;height:67px;border:solid transparent;border-width:17.5px 55px;border-image:url("assets/tab-normal.png?v=2") 35 110 35 110 fill / 17.5px 55px / 0 stretch;background:none;padding:0;color:#dfd0b4;font:14px Georgia,serif;cursor:pointer;white-space:nowrap}
+.tinker-clockwork-tab[aria-selected="true"]{border-image-source:url("assets/tab-active.png?v=2");color:#21180f}
+.tinker-clockwork-divider{height:36px;position:relative;min-width:180px;background-image:url("assets/divider-axle.png");background-position:center;background-repeat:repeat-x;background-size:25px 9.5px}
+.tinker-clockwork-divider::before,.tinker-clockwork-divider::after,.tinker-clockwork-divider>span{content:"";position:absolute;top:0;width:40px;height:36px;background:center/100% 100% no-repeat}
+.tinker-clockwork-divider::before{left:0;background-image:url("assets/divider-gear-left.png")}
+.tinker-clockwork-divider::after{right:0;background-image:url("assets/divider-gear-right.png")}
+.tinker-clockwork-divider>span{left:50%;margin-left:-20px;background-image:url("assets/divider-gear-center.png")}
+/* Compact panel artwork is uniformly reduced, never squashed. */
+@media(max-width:399px){.tinker-clockwork-panel:not(.tinker-clockwork-panel--improvement){min-width:280px;padding:64px 30px 58px}.tinker-clockwork-panel:not(.tinker-clockwork-panel--improvement)::after{border-image-width:54.375px 58.5px 58.125px 58.125px;border-width:54.375px 58.5px 58.125px 58.125px}.tinker-clockwork-crest{width:83.25px;height:42px}}
+
