@@ -1,0 +1,77 @@
+[
+  {
+    "file": "act-1-ashwood.png",
+    "source": "act-1-ashwood-3-variants.png",
+    "panel": 1,
+    "crop_box": [
+      53,
+      62,
+      1721,
+      301
+    ],
+    "width": 1668,
+    "height": 239,
+    "resampled": false,
+    "magenta_pixels": 0
+  },
+  {
+    "file": "act-2-scorched.png",
+    "source": "act-2-scorched-3-variants.png",
+    "panel": 2,
+    "crop_box": [
+      14,
+      362,
+      1522,
+      672
+    ],
+    "width": 1508,
+    "height": 310,
+    "resampled": false,
+    "magenta_pixels": 0
+  },
+  {
+    "file": "act-3-brackwater.png",
+    "source": "act-3-brackwater-3-variants.png",
+    "panel": 3,
+    "crop_box": [
+      15,
+      488,
+      2157,
+      707
+    ],
+    "width": 2142,
+    "height": 219,
+    "resampled": false,
+    "magenta_pixels": 0
+  },
+  {
+    "file": "act-4-citadel.png",
+    "source": "act-4-citadel-3-variants.png",
+    "panel": 1,
+    "crop_box": [
+      27,
+      30,
+      1747,
+      299
+    ],
+    "width": 1720,
+    "height": 269,
+    "resampled": false,
+    "magenta_pixels": 0
+  },
+  {
+    "file": "act-5-pinnacle-snow.png",
+    "source": "act-5-pinnacle-snow-v2.png",
+    "panel": 1,
+    "crop_box": [
+      17,
+      17,
+      1518,
+      336
+    ],
+    "width": 1501,
+    "height": 319,
+    "resampled": false,
+    "magenta_pixels": 0
+  }
+]

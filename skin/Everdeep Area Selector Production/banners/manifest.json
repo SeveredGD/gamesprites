@@ -1,0 +1,67 @@
+[
+  {
+    "file": "act-1-ashwood.png",
+    "width": 1200,
+    "height": 200,
+    "original": "originals/act-1-ashwood.png",
+    "original_size": [
+      1668,
+      239
+    ],
+    "method": "proportional cover crop",
+    "anchor": "right center",
+    "resampled": true
+  },
+  {
+    "file": "act-2-scorched.png",
+    "width": 1200,
+    "height": 200,
+    "original": "originals/act-2-scorched.png",
+    "original_size": [
+      1508,
+      310
+    ],
+    "method": "proportional cover crop",
+    "anchor": "right center",
+    "resampled": true
+  },
+  {
+    "file": "act-3-brackwater.png",
+    "width": 1200,
+    "height": 200,
+    "original": "originals/act-3-brackwater.png",
+    "original_size": [
+      2142,
+      219
+    ],
+    "method": "proportional cover crop",
+    "anchor": "right center",
+    "resampled": true
+  },
+  {
+    "file": "act-4-citadel.png",
+    "width": 1200,
+    "height": 200,
+    "original": "originals/act-4-citadel.png",
+    "original_size": [
+      1720,
+      269
+    ],
+    "method": "proportional cover crop",
+    "anchor": "right center",
+    "resampled": true
+  },
+  {
+    "file": "act-5-pinnacle-snow.png",
+    "width": 1200,
+    "height": 200,
+    "original": "originals/act-5-pinnacle-snow.png",
+    "original_size": [
+      1501,
+      319
+    ],
+    "method": "proportional cover crop",
+    "anchor": "right center",
+    "resampled": true
+  }
+]

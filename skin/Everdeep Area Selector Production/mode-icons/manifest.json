@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mode-normal",
+    "sourceCell": "A1",
+    "cropBox": [
+      0,
+      0,
+      420,
+      418
+    ],
+    "sourceContentSize": [
+      289,
+      307
+    ],
+    "files": {
+      "32": "mode-normal-32.png",
+      "48": "mode-normal-48.png",
+      "64": "mode-normal-64.png",
+      "128": "mode-normal-128.png"
+    }
+  },
+  {
+    "id": "mode-desolation",
+    "sourceCell": "B1",
+    "cropBox": [
+      0,
+      418,
+      420,
+      830
+    ],
+    "sourceContentSize": [
+      341,
+      325
+    ],
+    "files": {
+      "32": "mode-desolation-32.png",
+      "48": "mode-desolation-48.png",
+      "64": "mode-desolation-64.png",
+      "128": "mode-desolation-128.png"
+    }
+  },
+  {
+    "id": "mode-everdeep",
+    "sourceCell": "C1",
+    "cropBox": [
+      0,
+      830,
+      420,
+      1254
+    ],
+    "sourceContentSize": [
+      361,
+      397
+    ],
+    "files": {
+      "32": "mode-everdeep-32.png",
+      "48": "mode-everdeep-48.png",
+      "64": "mode-everdeep-64.png",
+      "128": "mode-everdeep-128.png"
+    }
+  }
+]

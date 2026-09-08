@@ -1,0 +1,62 @@
+[
+  {
+    "id": "normal",
+    "sourceCell": "A1",
+    "cropBox": [
+      0,
+      0,
+      450,
+      410
+    ],
+    "sourceContentSize": [
+      362,
+      394
+    ],
+    "files": {
+      "32": "normal-32.png",
+      "48": "normal-48.png",
+      "64": "normal-64.png",
+      "128": "normal-128.png"
+    }
+  },
+  {
+    "id": "nightmare",
+    "sourceCell": "B1",
+    "cropBox": [
+      0,
+      410,
+      450,
+      790
+    ],
+    "sourceContentSize": [
+      335,
+      331
+    ],
+    "files": {
+      "32": "nightmare-32.png",
+      "48": "nightmare-48.png",
+      "64": "nightmare-64.png",
+      "128": "nightmare-128.png"
+    }
+  },
+  {
+    "id": "hell",
+    "sourceCell": "C1",
+    "cropBox": [
+      0,
+      790,
+      450,
+      1254
+    ],
+    "sourceContentSize": [
+      435,
+      428
+    ],
+    "files": {
+      "32": "hell-32.png",
+      "48": "hell-48.png",
+      "64": "hell-64.png",
+      "128": "hell-128.png"
+    }
+  }
+]
