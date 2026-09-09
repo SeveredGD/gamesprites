@@ -1,0 +1,9 @@
+@font-face{font-family:EverdeepCinzel;src:url('./cinzel.woff2') format('woff2');font-display:swap;font-weight:400}
+.silver-reliquary{display:inline-grid;isolation:isolate;position:relative;font-family:EverdeepCinzel,serif;font-weight:400;font-size:var(--silver-size,64px);letter-spacing:.044em;line-height:1.12;color:#c4cbcc;white-space:pre-wrap;overflow-wrap:anywhere;text-align:inherit;vertical-align:middle}
+.silver-reliquary>span{grid-area:1/1;white-space:inherit;font:inherit;letter-spacing:inherit;line-height:inherit;min-width:0}
+.silver-reliquary .sr-outer{color:#1a1d22;-webkit-text-stroke:.124em #1a1d22;paint-order:stroke fill;filter:drop-shadow(0 .025em .055em #000b);pointer-events:none;user-select:none}
+.silver-reliquary .sr-accent{color:#7d9ba7;-webkit-text-stroke:.062em #7d9ba7;paint-order:stroke fill;pointer-events:none;user-select:none}
+.silver-reliquary .sr-inner{color:#1a1d22;-webkit-text-stroke:.026em #1a1d22;paint-order:stroke fill;pointer-events:none;user-select:none}
+.silver-reliquary .sr-face{color:#c4cbcc;background:linear-gradient(#f7f7eb 0%,#c4cbcc 42%,#4b5258 100%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;position:relative}
+@media(forced-colors:active){.silver-reliquary .sr-outer,.silver-reliquary .sr-accent,.silver-reliquary .sr-inner{display:none}.silver-reliquary .sr-face{background:none;-webkit-text-fill-color:CanvasText;color:CanvasText}}
+.silver-reliquary>span{position:relative}.silver-reliquary .sr-outer{z-index:0}.silver-reliquary .sr-accent{z-index:1}.silver-reliquary .sr-inner{z-index:2}.silver-reliquary .sr-face{z-index:3}
