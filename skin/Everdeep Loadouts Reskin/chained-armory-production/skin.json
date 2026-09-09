@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "source": "source/loadout-skin-sheet.png",
+  "insetOrder": [
+    "top",
+    "right",
+    "bottom",
+    "left"
+  ],
+  "assets": {
+    "modal-frame": {
+      "file": "assets/modal-frame.png",
+      "width": 741,
+      "height": 934,
+      "sourceCrop": [
+        23,
+        44,
+        764,
+        978
+      ],
+      "insets": {
+        "top": 155,
+        "right": 155,
+        "bottom": 180,
+        "left": 155
+      },
+      "recommendedScale": 0.5,
+      "minimumDisplaySize": [
+        156.0,
+        168.5
+      ],
+      "centerTransparent": true,
+      "slices": {
+        "top-left": "slices/modal-frame/top-left.png",
+        "top-center": "slices/modal-frame/top-center.png",
+        "top-right": "slices/modal-frame/top-right.png",
+        "middle-left": "slices/modal-frame/middle-left.png",
+        "middle-center": "slices/modal-frame/middle-center.png",
+        "middle-right": "slices/modal-frame/middle-right.png",
+        "bottom-left": "slices/modal-frame/bottom-left.png",
+        "bottom-center": "slices/modal-frame/bottom-center.png",
+        "bottom-right": "slices/modal-frame/bottom-right.png"
+      }
+    },
+    "tab-silver": {
+      "file": "assets/tab-silver.png",
+      "width": 722,
+      "height": 148,
+      "sourceCrop": [
+        779,
+        57,
+        1501,
+        205
+      ],
+      "insets": {
+        "top": 60,
+        "right": 95,
+        "bottom": 60,
+        "left": 95
+      },
+      "recommendedScale": 0.5,
+      "minimumDisplaySize": [
+        96.0,
+        61.0
+      ],
+      "centerTransparent": false,
+      "slices": {
+        "top-left": "slices/tab-silver/top-left.png",
+        "top-center": "slices/tab-silver/top-center.png",
+        "top-right": "slices/tab-silver/top-right.png",
+        "middle-left": "slices/tab-silver/middle-left.png",
+        "middle-center": "slices/tab-silver/middle-center.png",
+        "middle-right": "slices/tab-silver/middle-right.png",
+        "bottom-left": "slices/tab-silver/bottom-left.png",
+        "bottom-center": "slices/tab-silver/bottom-center.png",
+        "bottom-right": "slices/tab-silver/bottom-right.png"
+      }
+    },
+    "tab-gold": {
+      "file": "assets/tab-gold.png",
+      "width": 720,
+      "height": 146,
+      "sourceCrop": [
+        780,
+        231,
+        1500,
+        377
+      ],
+      "insets": {
+        "top": 60,
+        "right": 95,
+        "bottom": 60,
+        "left": 95
+      },
+      "recommendedScale": 0.5,
+      "minimumDisplaySize": [
+        96.0,
+        61.0
+      ],
+      "centerTransparent": false,
+      "slices": {
+        "top-left": "slices/tab-gold/top-left.png",
+        "top-center": "slices/tab-gold/top-center.png",
+        "top-right": "slices/tab-gold/top-right.png",
+        "middle-left": "slices/tab-gold/middle-left.png",
+        "middle-center": "slices/tab-gold/middle-center.png",
+        "middle-right": "slices/tab-gold/middle-right.png",
+        "bottom-left": "slices/tab-gold/bottom-left.png",
+        "bottom-center": "slices/tab-gold/bottom-center.png",
+        "bottom-right": "slices/tab-gold/bottom-right.png"
+      }
+    },
+    "button-silver": {
+      "file": "assets/button-silver.png",
+      "width": 688,
+      "height": 126,
+      "sourceCrop": [
+        795,
+        407,
+        1483,
+        533
+      ],
+      "insets": {
+        "top": 35,
+        "right": 35,
+        "bottom": 35,
+        "left": 35
+      },
+      "recommendedScale": 0.5,
+      "minimumDisplaySize": [
+        36.0,
+        36.0
+      ],
+      "centerTransparent": false,
+      "slices": {
+        "top-left": "slices/button-silver/top-left.png",
+        "top-center": "slices/button-silver/top-center.png",
+        "top-right": "slices/button-silver/top-right.png",
+        "middle-left": "slices/button-silver/middle-left.png",
+        "middle-center": "slices/button-silver/middle-center.png",
+        "middle-right": "slices/button-silver/middle-right.png",
+        "bottom-left": "slices/button-silver/bottom-left.png",
+        "bottom-center": "slices/button-silver/bottom-center.png",
+        "bottom-right": "slices/button-silver/bottom-right.png"
+      }
+    },
+    "button-gold": {
+      "file": "assets/button-gold.png",
+      "width": 690,
+      "height": 128,
+      "sourceCrop": [
+        792,
+        557,
+        1482,
+        685
+      ],
+      "insets": {
+        "top": 35,
+        "right": 35,
+        "bottom": 35,
+        "left": 35
+      },
+      "recommendedScale": 0.5,
+      "minimumDisplaySize": [
+        36.0,
+        36.0
+      ],
+      "centerTransparent": false,
+      "slices": {
+        "top-left": "slices/button-gold/top-left.png",
+        "top-center": "slices/button-gold/top-center.png",
+        "top-right": "slices/button-gold/top-right.png",
+        "middle-left": "slices/button-gold/middle-left.png",
+        "middle-center": "slices/button-gold/middle-center.png",
+        "middle-right": "slices/button-gold/middle-right.png",
+        "bottom-left": "slices/button-gold/bottom-left.png",
+        "bottom-center": "slices/button-gold/bottom-center.png",
+        "bottom-right": "slices/button-gold/bottom-right.png"
+      }
+    },
+    "crest": {
+      "file": "assets/crest.png",
+      "width": 589,
+      "height": 221,
+      "sourceCrop": [
+        840,
+        727,
+        1429,
+        948
+      ]
+    },
+    "row-gold": {
+      "file": "assets/row-gold.png",
+      "width": 1325,
+      "height": 161,
+      "insets": {
+        "top": 22,
+        "right": 30,
+        "bottom": 22,
+        "left": 30
+      },
+      "slices": {
+        "top-left": "slices/row-gold/top-left.png",
+        "top-center": "slices/row-gold/top-center.png",
+        "top-right": "slices/row-gold/top-right.png",
+        "middle-left": "slices/row-gold/middle-left.png",
+        "middle-center": "slices/row-gold/middle-center.png",
+        "middle-right": "slices/row-gold/middle-right.png",
+        "bottom-left": "slices/row-gold/bottom-left.png",
+        "bottom-center": "slices/row-gold/bottom-center.png",
+        "bottom-right": "slices/row-gold/bottom-right.png"
+      },
+      "source": "approved mockup, content cleared",
+      "recommendedScale": 0.5
+    },
+    "row-silver": {
+      "file": "assets/row-silver.png",
+      "width": 1325,
+      "height": 161,
+      "insets": {
+        "top": 22,
+        "right": 30,
+        "bottom": 22,
+        "left": 30
+      },
+      "slices": {
+        "top-left": "slices/row-silver/top-left.png",
+        "top-center": "slices/row-silver/top-center.png",
+        "top-right": "slices/row-silver/top-right.png",
+        "middle-left": "slices/row-silver/middle-left.png",
+        "middle-center": "slices/row-silver/middle-center.png",
+        "middle-right": "slices/row-silver/middle-right.png",
+        "bottom-left": "slices/row-silver/bottom-left.png",
+        "bottom-center": "slices/row-silver/bottom-center.png",
+        "bottom-right": "slices/row-silver/bottom-right.png"
+      },
+      "source": "approved mockup, content cleared",
+      "recommendedScale": 0.5
+    },
+    "suspension-chain": {
+      "file": "assets/suspension-chain.png",
+      "width": 51,
+      "height": 105,
+      "source": "approved mockup",
+      "usage": "Fixed aspect ratio decoration; top deliberately continues beyond viewport. Do not stretch."
+    }
+  }
+}
